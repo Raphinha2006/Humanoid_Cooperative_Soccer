@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "pending_job": "seed104_recorded",
+  "error": "Memory admission timeout; no process was displaced",
+  "stopped_beijing": "2026-11-11T00:51:56.473667+08:00"
+}

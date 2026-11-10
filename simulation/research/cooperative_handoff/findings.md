@@ -47,3 +47,11 @@ previously learned collaboration and generalising to unseen partner checkpoints?
   interventions remain necessary.
 - All three normal ten-fit/H32 resource gates passed with 2048 worlds and batch1024,
   no capacity overflow. The first matched continuation arm is running on GPU1.
+
+# 2026-11-11 first matched arm
+
+The repaired held-sender continuation seed104 completes its budget but does not
+establish sustained improvement: start5.66%, selected peak8.59%, final4.69%;
+last four scheduled development evaluations average5.27%. This is one continuation
+replicate, not an independent final test. Other sender treatments have not yet
+completed, so no treatment ranking or sender-causality claim is supported.

@@ -411,20 +411,20 @@
       "source_sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824"
     },
     "simulation/research/cooperative_handoff/findings.md": {
-      "sha256": "2f29a75cc49dd2a803ace714bd14f86c7e94b4dd52686903c014c077fae0a65f",
-      "source_sha256": "2f29a75cc49dd2a803ace714bd14f86c7e94b4dd52686903c014c077fae0a65f"
+      "sha256": "74bc63476d1b9f9f8fd2366f3255ebf35c29c279f48615529ec839dd9c977c62",
+      "source_sha256": "74bc63476d1b9f9f8fd2366f3255ebf35c29c279f48615529ec839dd9c977c62"
     },
     "simulation/research/cooperative_handoff/literature/survey.md": {
       "sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2",
       "source_sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2"
     },
     "simulation/research/cooperative_handoff/research-log.md": {
-      "sha256": "df0c2190619f6fc405c43b1609bc57ef1ab187b21cbfb16c1526526c5172b16d",
-      "source_sha256": "df0c2190619f6fc405c43b1609bc57ef1ab187b21cbfb16c1526526c5172b16d"
+      "sha256": "67509490d7d1cb2806a46adbb27931ef5d3b750d43ff25fb72aa41ddd6697340",
+      "source_sha256": "67509490d7d1cb2806a46adbb27931ef5d3b750d43ff25fb72aa41ddd6697340"
     },
     "simulation/research/cooperative_handoff/research-state.yaml": {
-      "sha256": "50f61ade7e1b46bd0ce47240d4d519da6dcfc42233ab9beb82a8ee8828ea4b94",
-      "source_sha256": "47c6022c708881f6bdb2d7b4599c20f44c85b382637dba4c9a495802058bd66b"
+      "sha256": "dc4e62f142e105f43523f202b8588f608f430b53e77f666cec160d0eb036d701",
+      "source_sha256": "2631f39bfa5f706ea39c6b7c8c9c3741fc3e4fb5bbf3085e86f0be43d9fd55e5"
     },
     "simulation/tools/complete_cooperation_preflight.py": {
       "sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057",
@@ -433,6 +433,18 @@
     "simulation/research/cooperative_handoff/experiments/00_control_consistency/normal_update_gate.md": {
       "sha256": "a4322ff59d2025ddb60e77e80060ab12eb76daf27bbeede34f3d8e07e07ac860",
       "source_sha256": "a4322ff59d2025ddb60e77e80060ab12eb76daf27bbeede34f3d8e07e07ac860"
+    },
+    "simulation/tools/resume_cooperation_pilot.py": {
+      "sha256": "4f25b3f0f6873cab62be540f7f9c69813a8f3c45f4bd3603b7a805fc218d7446",
+      "source_sha256": "4f25b3f0f6873cab62be540f7f9c69813a8f3c45f4bd3603b7a805fc218d7446"
+    },
+    "simulation/research/cooperative_handoff/experiments/00_control_consistency/recovery_20261111.md": {
+      "sha256": "1c82c39ff645f645f1e4b35e52377ffc6136df6e81b4468af0909688248c1e5e",
+      "source_sha256": "1c82c39ff645f645f1e4b35e52377ffc6136df6e81b4468af0909688248c1e5e"
+    },
+    "simulation/research/cooperative_handoff/experiments/00_control_consistency/memory_admission_20261111.md": {
+      "sha256": "1880f42c2fb4697c4b00b223741fe5292ce8c5849cc80ffa9c8e2b439b64d1fd",
+      "source_sha256": "1880f42c2fb4697c4b00b223741fe5292ce8c5849cc80ffa9c8e2b439b64d1fd"
     }
   }
 }

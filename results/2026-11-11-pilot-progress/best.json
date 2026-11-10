@@ -1,0 +1,26 @@
+{
+  "iteration": 365,
+  "evaluation": {
+    "front_pass_success": 0.0859375,
+    "captured": 0.1171875,
+    "fallen": 0.0,
+    "ordered_contact": 0.625,
+    "handoff_at_end": 0.4140625,
+    "max_hold_mean": 0.2364843189716339,
+    "mean_hold": 0.1127343401312828,
+    "final_distance": 0.5894289016723633,
+    "final_speed": 0.000499799323733896,
+    "return_mean": 33.695279962033965,
+    "legacy_return_mean": 33.8273217137903,
+    "residual_rms_rad": 0.08163400739431381,
+    "residual_saturation_fraction": 0.06261228770017624,
+    "capacity_overflow_max": 0,
+    "solver_limit_world_fraction": 0.0,
+    "ball_rmse_5": 0.0019922303035855293,
+    "receiver_root_rmse_5": 0.0036728112027049065,
+    "ball_rmse_25": 0.04408041387796402,
+    "receiver_root_rmse_25": 0.02781563811004162,
+    "ball_rmse_50": 0.16028067469596863,
+    "receiver_root_rmse_50": 0.0950290709733963
+  }
+}

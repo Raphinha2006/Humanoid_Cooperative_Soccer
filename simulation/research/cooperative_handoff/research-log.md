@@ -53,3 +53,17 @@ The original smoke flag uses one WM fit. Added a committed supplement requiring
 three normal ten-fit/H32 updates without that flag, preserving the frozen main
 supervisor. All three passed with no capacity overflow. The extension then launched
 seed104_held, the first matched arm, on GPU1. No new method improvement is claimed.
+
+## 2026-11-11 — one arm complete, resource admission revised
+
+seed104_held completed 512 additional updates and 33,554,432 transitions in about
+1h53m. Development strict reception was 5.66% at start, peaked at8.59%, and ended
+at4.69% (another final evaluation4.88%). No sustained improvement is established.
+The remaining methods/seeds are untested in full runs.
+
+The original queue exited at00:51:56 Asia/Shanghai after30min of waiting for
+10,000MiB free onGPU1. No training OOM occurred. A new recovery runner verifies
+completed budgets and frozen hashes, then skips the completed arm. Following the
+user's resource-threshold question, use provisional admission7GiB held/recorded
+and8.5GiB closed_loop, with complete child-process memory samples. Environment,
+batch, microbatch, algorithm and scientific budgets stay fixed. Wait up to12h.

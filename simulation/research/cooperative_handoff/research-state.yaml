@@ -1,6 +1,6 @@
 project: cooperative_humanoid_handoff
-status: running_matched_continuation_pilot
-updated: '2026-11-10'
+status: recovery_queue_active
+updated: '2026-11-11'
 stage: 00_control_consistency
 server: <project-root>
 gpu_physical_index: 1
@@ -21,7 +21,7 @@ heldout:
   reserved_n: 1024
   use_during_development: false
 next:
-  - Complete the serial matched-update pilot; first arm seed104_held is running.
+  - Complete the remaining eight matched arms; seed104_held completed without stable gain.
   - Add action-effect interventions before interpreting WM accuracy as control utility.
 checks:
   cpu_regressions: 8_passed
@@ -37,4 +37,7 @@ publication:
   status: public_verified
 
 normal_update_gates: all_three_passed
-current_training_arm: seed104_held
+completed_training_arms: [seed104_held]
+pending_training_arm: seed104_recorded
+current_status_file: recovery_adaptive_20261111.status.json
+memory_admission_mib: {held: 7168, recorded: 7168, closed_loop: 8704}

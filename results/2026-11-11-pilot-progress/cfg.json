@@ -1,0 +1,10 @@
+{
+  "num_envs": 2048,
+  "batch": 1024,
+  "micro": 128,
+  "wm_width": 2048,
+  "seed": 104,
+  "sender_control": "held",
+  "controller_kinematics": "current",
+  "new_updates": 512
+}
