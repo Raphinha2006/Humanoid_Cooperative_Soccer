@@ -1,0 +1,25 @@
+{
+  "created_epoch": 1794319348.6963243,
+  "seed": 220000,
+  "probe_seed": 250000,
+  "n": 512,
+  "repeats": 5,
+  "heldout_used": false,
+  "checkpoints": {
+    "start": {
+      "sha256": "23b9ba6814507a3b7cfcd8f33e614d86ae23e1d6e5af9d3792231d48406a5f4f",
+      "iteration": 141
+    },
+    "peak": {
+      "sha256": "3db6e8a309948ea45bf2204db56e6bad9e047f32c9b15a7b0a5f85839fadd575",
+      "iteration": 537
+    },
+    "late": {
+      "sha256": "c26f1c59d02db1a6adf228483a42e9e8a95ee663a45600b2a585094abe1a52f0",
+      "iteration": 1119
+    }
+  },
+  "reward_accounting": "previous_residual_v1",
+  "strict_criterion_changed": false,
+  "controller_kinematics": "legacy"
+}

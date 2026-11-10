@@ -33,10 +33,10 @@ CUDA_VISIBLE_DEVICES=0 .venv-g1/bin/python -m soccer_sim.gpu_receive.audit \
   --root /absolute/path/experiment --gpu 0 \
   --python /absolute/path/simulation/.venv-g1/bin/python --preflight-only
 
-# 前置全部通过且源文件哈希未变化时，继续匹配预算的训练队列
-.venv-g1/bin/python tools/run_cooperation_pilot.py \
+# 补做正常十次 WM 拟合的三组检查，通过后继续匹配预算队列
+.venv-g1/bin/python tools/complete_cooperation_preflight.py \
   --root /absolute/path/experiment --gpu 0 \
-  --python /absolute/path/simulation/.venv-g1/bin/python --skip-preflight
+  --python /absolute/path/simulation/.venv-g1/bin/python
 ```
 
 队列一次只运行一个本项目 GPU 子进程，保存状态、命令、日志和源文件哈希；检查失败、显存不足、磁盘不足或预算不完整会停止。`--skip-preflight` 不会绕过已通过的源代码校验。源代码改变后应创建新版本并重新验证。

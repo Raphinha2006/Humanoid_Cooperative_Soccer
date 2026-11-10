@@ -423,8 +423,16 @@
       "source_sha256": "a10140104f048daf52be4f24ae00a26ec3eb407d59ca674801ebd7c6c48b1e55"
     },
     "simulation/research/cooperative_handoff/research-state.yaml": {
-      "sha256": "6f0642f328d00f8aa87f5a5ec0a13a314fde1386234698857974d1299a99b5cc",
-      "source_sha256": "670a91799bcf1a39e8a451939f48787989f087638ee2da5f9b5ba812fbd67cbb"
+      "sha256": "25a26c6f23247fc42b6a8bf96faac6f10ba991011bab6257b6d2d3f08b7da369",
+      "source_sha256": "2c49bab5cce4a858b029e8bf5ce54c33df40c08ae2df843f6847a6755d9419c6"
+    },
+    "simulation/tools/complete_cooperation_preflight.py": {
+      "sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057",
+      "source_sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057"
+    },
+    "simulation/research/cooperative_handoff/experiments/00_control_consistency/normal_update_gate.md": {
+      "sha256": "a4322ff59d2025ddb60e77e80060ab12eb76daf27bbeede34f3d8e07e07ac860",
+      "source_sha256": "a4322ff59d2025ddb60e77e80060ab12eb76daf27bbeede34f3d8e07e07ac860"
     }
   }
 }

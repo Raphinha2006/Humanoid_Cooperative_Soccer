@@ -1,5 +1,5 @@
 project: cooperative_humanoid_handoff
-status: running_baseline_preflight
+status: running_normal_update_gates
 updated: '2026-11-10'
 stage: 00_control_consistency
 server: <project-root>
@@ -21,8 +21,7 @@ heldout:
   reserved_n: 1024
   use_during_development: false
 next:
-  - Complete legacy/current fixed-initial-state checkpoint repeatability audits.
-  - Complete frozen-trajectory forecasts and three full-scale smoke updates.
+  - Complete three normal ten-fit WM update gates (reduced-fit smoke already passed).
   - Run serial matched-update pilot only after correctness and memory checks pass.
   - Add action-effect interventions before interpreting WM accuracy as control utility.
 checks:
@@ -36,4 +35,4 @@ checks:
     finite_state_gradients: true
 publication:
   repository: https://github.com/Raphinha2006/Humanoid_Cooperative_Soccer
-  status: preparing_public_release
+  status: public_verified
