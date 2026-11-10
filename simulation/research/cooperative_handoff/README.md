@@ -31,3 +31,8 @@ Sender modes are `held`, `recorded` and `closed_loop`. Recorded future sender
 controls are an oracle-input diagnostic. Closed-loop mode carries native histories,
 filtered commands, yaw references and held visual observations explicitly. These
 memories are not learned dynamics outputs.
+
+The reduced-fit smoke is followed by `tools/complete_cooperation_preflight.py`:
+three normal ten-WM-fit/H32 gates, then the original matched study. See the normal
+update gate supplement. All three normal gates passed before the first full arm.
+Public results and readable status: https://github.com/Raphinha2006/Humanoid_Cooperative_Soccer

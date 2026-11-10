@@ -33,3 +33,17 @@ previously learned collaboration and generalising to unseen partner checkpoints?
 - How much error comes from the sender approximation near ball impacts?
 - Does action-effect ranking predict policy improvement better than position RMSE?
 - Is an explicit handoff representation useful beyond an equal-capacity critic?
+
+# 2026-11-10 fixed-state audit
+
+- Five repeats on identical 512-world development initials reproduce the historical
+  peak-to-late drop: legacy 22.03% to 2.54%; current 13.05% to 2.42%. Repeat standard
+  deviations and per-world data are published; these are not training replications.
+- Current observation timing changes old policy performance. Treat it as a common
+  repair and report each mode separately, not as the sender-control treatment.
+- On fixed native trajectories, recorded sender controls do not eliminate contact
+  forecast error. A late model can have lower position RMSE but worse reception.
+  Sender approximation is not established as the dominant cause; action-effect
+  interventions remain necessary.
+- All three normal ten-fit/H32 resource gates passed with 2048 worlds and batch1024,
+  no capacity overflow. The first matched continuation arm is running on GPU1.

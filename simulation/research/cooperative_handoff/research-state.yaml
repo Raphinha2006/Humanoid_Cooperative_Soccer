@@ -1,5 +1,5 @@
 project: cooperative_humanoid_handoff
-status: running_normal_update_gates
+status: running_matched_continuation_pilot
 updated: '2026-11-10'
 stage: 00_control_consistency
 server: <project-root>
@@ -21,8 +21,7 @@ heldout:
   reserved_n: 1024
   use_during_development: false
 next:
-  - Complete three normal ten-fit WM update gates (reduced-fit smoke already passed).
-  - Run serial matched-update pilot only after correctness and memory checks pass.
+  - Complete the serial matched-update pilot; first arm seed104_held is running.
   - Add action-effect interventions before interpreting WM accuracy as control utility.
 checks:
   cpu_regressions: 8_passed
@@ -36,3 +35,6 @@ checks:
 publication:
   repository: https://github.com/Raphinha2006/Humanoid_Cooperative_Soccer
   status: public_verified
+
+normal_update_gates: all_three_passed
+current_training_arm: seed104_held

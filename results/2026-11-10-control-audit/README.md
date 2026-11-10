@@ -43,6 +43,8 @@
 - `legacy/current_results.json`：每次评估的汇总及每环境结果。
 - `legacy/current_summary.json`：重复评估汇总。
 - `forecast_errors.json`：完整分阶段、分检查点、分预测长度的误差和轨迹哈希。
+- `resource_checks.json`：三组正常更新均完成、配置、容量检查和日志中的显存记录；设备剩余显存包含其他任务影响，不能据此计算本项目独占峰值。
+- `runtime_versions.json`：实际 Python、CUDA、驱动和依赖版本。
 - [绘图脚本](../../figures/gen_fig_control_audit.py)：在安装 matplotlib/numpy 后运行，生成 PNG300dpi 与矢量 PDF。
 
 真实完整状态轨迹和历史权重未打包，因而当前公开数据可重画图表，不能独立重跑历史检查点仿真。

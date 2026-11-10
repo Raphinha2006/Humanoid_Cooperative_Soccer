@@ -403,28 +403,28 @@
       "source_sha256": "0b214fea8630f678140820092b70a76db255b91bc7e120428b30403e744c336b"
     },
     "simulation/research/cooperative_handoff/README.md": {
-      "sha256": "76ac5395927c2de7bfe73fcfd1b9226a5e5dffc0be67009a9b54d0ea89973ae4",
-      "source_sha256": "76ac5395927c2de7bfe73fcfd1b9226a5e5dffc0be67009a9b54d0ea89973ae4"
+      "sha256": "d8ed7fff24fe67151ac2e8714a80bb33465e9028510401ac6a692f6812d985ab",
+      "source_sha256": "d8ed7fff24fe67151ac2e8714a80bb33465e9028510401ac6a692f6812d985ab"
     },
     "simulation/research/cooperative_handoff/experiments/00_control_consistency/protocol.md": {
       "sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824",
       "source_sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824"
     },
     "simulation/research/cooperative_handoff/findings.md": {
-      "sha256": "e88afad6af53c5f9d84eefb4f2962b889c5d3613c6e838dbc0fe995db56d1233",
-      "source_sha256": "e88afad6af53c5f9d84eefb4f2962b889c5d3613c6e838dbc0fe995db56d1233"
+      "sha256": "2f29a75cc49dd2a803ace714bd14f86c7e94b4dd52686903c014c077fae0a65f",
+      "source_sha256": "2f29a75cc49dd2a803ace714bd14f86c7e94b4dd52686903c014c077fae0a65f"
     },
     "simulation/research/cooperative_handoff/literature/survey.md": {
       "sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2",
       "source_sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2"
     },
     "simulation/research/cooperative_handoff/research-log.md": {
-      "sha256": "a10140104f048daf52be4f24ae00a26ec3eb407d59ca674801ebd7c6c48b1e55",
-      "source_sha256": "a10140104f048daf52be4f24ae00a26ec3eb407d59ca674801ebd7c6c48b1e55"
+      "sha256": "df0c2190619f6fc405c43b1609bc57ef1ab187b21cbfb16c1526526c5172b16d",
+      "source_sha256": "df0c2190619f6fc405c43b1609bc57ef1ab187b21cbfb16c1526526c5172b16d"
     },
     "simulation/research/cooperative_handoff/research-state.yaml": {
-      "sha256": "25a26c6f23247fc42b6a8bf96faac6f10ba991011bab6257b6d2d3f08b7da369",
-      "source_sha256": "2c49bab5cce4a858b029e8bf5ce54c33df40c08ae2df843f6847a6755d9419c6"
+      "sha256": "50f61ade7e1b46bd0ce47240d4d519da6dcfc42233ab9beb82a8ee8828ea4b94",
+      "source_sha256": "47c6022c708881f6bdb2d7b4599c20f44c85b382637dba4c9a495802058bd66b"
     },
     "simulation/tools/complete_cooperation_preflight.py": {
       "sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057",

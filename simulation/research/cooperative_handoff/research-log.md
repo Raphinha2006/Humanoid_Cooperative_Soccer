@@ -40,3 +40,16 @@ parameters, provenance, protocols, progress and tasks. Keep the existing private
 robotics repository private. Exclude credentials, server details, raw checkpoints,
 downloaded policies/assets and unrelated robot work. Update the public status after
 meaningful measured changes; running experiments are not reported as completed.
+
+## 2026-11-10 — diagnostics complete and matched study launched
+
+Both observation-mode audits and 144 frozen forecast summaries completed. Results,
+per-world outcomes, checkpoint/trajectory hashes and reproducible PNG/PDF figures
+were published in the public research repository. Legacy peak/late means were
+22.03/2.54%; current means were 13.05/2.42%. These are repeated fixed-initial-state
+audits, not independent training repeats or an independent final test.
+
+The original smoke flag uses one WM fit. Added a committed supplement requiring
+three normal ten-fit/H32 updates without that flag, preserving the frozen main
+supervisor. All three passed with no capacity overflow. The extension then launched
+seed104_held, the first matched arm, on GPU1. No new method improvement is claimed.
