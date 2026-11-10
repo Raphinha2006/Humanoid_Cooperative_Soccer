@@ -1,0 +1,80 @@
+seed: 104
+control_dt: 0.1
+duration: 6.0
+settle_time: 0.8
+kick_start: 0.2
+kick_end: 2.6
+ball_xy:
+- 0.3
+- 0.0
+ball_xy_noise:
+- 0.025
+- 0.025
+receiver_xy:
+- 1.2
+- 0.0
+receiver_xy_noise:
+- 0.1
+- 0.06
+walk_command_scale:
+- 0.25
+- 0.25
+- 0.6
+kick_heading_scale: 0.35
+capture_speed: 0.5
+capture_hold: 0.3
+capture_radius: 0.3
+minimum_pass_travel: 0.3
+fall_height: 0.35
+fall_upright: 0.65
+rounds: 3
+initial_episodes: 64
+episodes_per_round: 32
+validation_episodes: 16
+evaluation_episodes: 20
+wm_ensemble: 2
+wm_hidden: 256
+wm_window: 8
+wm_updates: 700
+batch_size: 128
+wm_lr: 0.0004
+teacher_horizon: 3
+teacher_updates: 10
+teacher_lr: 0.12
+teacher_queries: 512
+student_updates: 400
+student_lr: 0.0003
+exploration_std: 0.15
+action_penalty: 0.02
+uncertainty_penalty: 0.5
+imagination_weight: 0.0
+student_action_limit: 0.7
+uncertainty_scale: 0.03
+teacher_mode: current_intercept
+intercept_steps: 3
+intercept_gain: 1.5
+student_action_mask:
+- 0
+- 0
+- 0
+- 1
+- 1
+- 0
+- 0
+- 0
+facing_mode: mutual
+kick_direction:
+- 1.0
+- 0.0
+kick_kind: bhuman_soft
+kick_speed: 0.4
+kick_direction_mode: teammate
+face_yaw_gain: 1.5
+face_max_yaw_rate: 0.6
+facing_tolerance_deg: 30.0
+intercept_pocket_x: 0.24
+intercept_deadband: 0.03
+intercept_command_limit: 0.2
+intercept_stop_distance: 0.34
+intercept_stop_speed: 0.5
+skip_wm_fit: true

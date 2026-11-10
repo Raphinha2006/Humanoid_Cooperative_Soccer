@@ -1,0 +1,12 @@
+# Same official field and ball physics; receiver is aligned to the learned gait's outgoing ball path.
+extends: hsl_m_3v3.yaml
+profile: hsl_m_3v3_pretrained_velocity_pass
+robot:
+  base_mode: free
+  instances:
+    - {name: A1, team: blue, position: [-2.0, 0.0962], yaw: 0.0}
+    - {name: A2, team: blue, position: [2.0, -0.0262], yaw: 3.141592653589793}
+    - {name: A3, team: blue, position: [-4.5, -2.5], yaw: 0.0}
+    - {name: B1, team: red, position: [4.5, 2.4], yaw: 3.141592653589793}
+    - {name: B2, team: red, position: [0.8, 2.4], yaw: 3.141592653589793}
+    - {name: B3, team: red, position: [4.5, -2.5], yaw: 3.141592653589793}

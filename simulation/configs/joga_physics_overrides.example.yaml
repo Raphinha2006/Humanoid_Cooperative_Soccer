@@ -1,0 +1,43 @@
+# Copy these keys into supermimic_g1_receive.yaml to change the native profile.
+# These are Joga deployment values, NOT official RoboCup physical standards.
+# Retain the native 50 Hz skill rate; changing physics requires new data/training.
+physics_overrides:
+  option:
+    timestep: 0.005
+    gravity: [0.0, 0.0, -9.81]
+    iterations: 10
+    tolerance: 1.0e-8
+  body:
+    soccerball:
+      mass: 0.43
+      # Native value ~= 2/3*m*r^2. Edit inertia together with mass/radius.
+      inertia: [0.00346867, 0.00346867, 0.00346867]
+  geom:
+    soccerball_geom:
+      size: [0.11, 0.0, 0.0]
+      friction: [0.75, 0.05, 0.02]
+      solref: [0.055, 0.18]
+      solimp: [0.85, 0.95, 0.001, 0.5, 2.0]
+    floor:
+      friction: [1.0, 0.005, 0.0001]
+      solref: [0.02, 1.0]
+    A1/left_foot_collision:
+      friction: [1.0, 0.005, 0.0001]
+    A1/right_foot_collision:
+      friction: [1.0, 0.005, 0.0001]
+    A2/left_foot_collision:
+      friction: [1.0, 0.005, 0.0001]
+    A2/right_foot_collision:
+      friction: [1.0, 0.005, 0.0001]
+  # Explicit foot/ball pairs override the geom friction/contact values.
+  # Five friction components: slide-x, slide-y, torsion, roll-x, roll-y.
+  foot_ball_pairs:
+    friction: [0.75, 0.75, 0.05, 0.02, 0.02]
+    solref: [0.055, 0.09]
+    solimp: [0.85, 0.95, 0.001, 0.5, 2.0]
+# Each scale may be scalar or a 31-element list in skills.json joint order.
+actuation_scale:
+  kp: 1.0
+  kd: 1.0
+  limit: 1.0
+  maxvel: 1.0

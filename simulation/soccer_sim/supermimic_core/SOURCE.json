@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/YHFone/supermimic-mjlab",
+  "revision": "9aab0a588c6941bf9862a2d444b711fd73e2b832",
+  "files": {
+    "networks.py": "fb26a62973e3e8b993911f0e6215010f358dae53928e49592b09e2e1aa9a7a06",
+    "kinematics.py": "d0a3d264ce1d939b43d17b7ca50ce0268cff10e8fb54da4fbbde40b5bb0e1918"
+  },
+  "modifications": "Only replace mjlab quaternion utility import with local wxyz-compatible math; task trainer and ball/two-robot WM are separate adaptations."
+}

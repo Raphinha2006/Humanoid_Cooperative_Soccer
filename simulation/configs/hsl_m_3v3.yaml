@@ -1,0 +1,132 @@
+# SI units. See docs/PARAMETERS.md for provenance, ranges and model limitations.
+profile: hsl_2026_m_field_3v3
+rules:
+  source: https://github.com/RoboCup-HumanoidSoccerLeague/HSL-Rules
+  revision: 06c44d4b0ea2fd3cd4fdcc2a7cb907f6ace400dc
+  status: development_source_not_normative_release
+field:
+  length: 14.0               # outside of the boundary lines
+  width: 9.0
+  line_width: 0.05
+  goal_area_depth: 1.0
+  goal_area_width: 4.0
+  penalty_area_depth: 3.0
+  penalty_area_width: 6.0
+  penalty_mark_distance: 2.0 # from outside goal line to mark centre
+  center_circle_radius: 1.5 # outside radius of painted annulus
+  corner_arc_radius: 0.5
+  center_mark_diameter: 0.1
+  penalty_mark_diameter: 0.1
+  runoff: 1.0
+  turf_pile_height: 0.025    # descriptive; rigid effective surface z=0
+  safety_wall: false
+  wall_height: 0.12
+  wall_thickness: 0.05
+goal:
+  width: 2.4                # clear inside opening
+  height: 1.6               # underside of crossbar
+  depth: 0.8
+  post_diameter: 0.1
+  net_collision: true       # rigid surrogate panels, not deformable net
+  net_thickness: 0.015
+ball:
+  size_label: size_3
+  radius: 0.095             # engineering nominal, measure actual tournament ball
+  mass: 0.32
+  inertia_factor: 0.6666666666666666 # thin spherical shell I=k*m*r^2
+  pressure_kpa: 80.0        # metadata; pressure is represented by contact compliance
+  initial_position: [-1.72, 0.0, 0.096]
+  initial_velocity: [0.0, 0.0, 0.0]
+physics:
+  timestep: 0.001
+  gravity: [0.0, 0.0, -9.81]
+  integrator: implicitfast
+  solver: Newton
+  iterations: 80
+  tolerance: 1.0e-8
+  cone: elliptic
+  air_density: 1.225
+  air_drag_coefficient: 0.47
+contacts:
+  # MuJoCo pair: [sliding_x, sliding_y, torsional, rolling_x, rolling_y]
+  # sliding dimensionless; torsional & rolling have units metres, NOT mu_rr.
+  ball_turf:
+    friction: [0.65, 0.65, 0.002, 0.0008, 0.0008]
+    condim: 6
+    solref: [0.012, 0.5]
+    solimp: [0.9, 0.95, 0.001, 0.5, 2.0]
+  foot_turf:
+    friction: [0.8, 0.8, 0.003, 0.0001, 0.0001]
+    condim: 6
+    solref: [0.008, 1.0]
+    solimp: [0.9, 0.95, 0.001, 0.5, 2.0]
+  ball_foot:
+    friction: [0.6, 0.6, 0.002, 0.0001, 0.0001]
+    condim: 6
+    solref: [0.015, 1.2]
+    solimp: [0.9, 0.95, 0.001, 0.5, 2.0]
+  ball_goal:
+    friction: [0.5, 0.5, 0.002, 0.0001, 0.0001]
+    condim: 6
+    solref: [0.008, 0.8]
+    solimp: [0.9, 0.95, 0.001, 0.5, 2.0]
+robot:
+  asset_dir: assets/booster_assets/robots/K1
+  xml: K1_22dof.xml
+  base_mode: fixed          # fixed pelvis baseline; free exposes floating base for balance policies
+  base_height: 0.572
+  joint_damping: 0.25
+  kp: 180.0
+  kd: 6.0
+  torque_scale: 1.0         # scales manufacturer's per-joint MJCF forcerange
+  mass_scale: 1.0           # scales mass AND inertia of every link
+  inertia_scale: 1.0        # additional inertia-only multiplier
+  link_overrides: {}       # e.g. trunk: {mass: 6.5, diaginertia: [0.0962, 0.0895, 0.0201]}
+  home:
+    left_shoulder_roll_joint: -1.3
+    right_shoulder_roll_joint: 1.3
+    left_elbow_yaw_joint: -0.3
+    right_elbow_yaw_joint: 0.3
+    left_hip_pitch_joint: -0.12
+    right_hip_pitch_joint: -0.12
+    left_knee_pitch_joint: 0.24
+    right_knee_pitch_joint: 0.24
+    left_ankle_pitch_joint: -0.12
+    right_ankle_pitch_joint: -0.12
+  # The right-foot centre is aligned to y=0 for the passing pair.
+  instances:
+    - {name: A1, team: blue, position: [-2.0, 0.0962], yaw: 0.0}
+    - {name: A2, team: blue, position: [2.0, -0.0962], yaw: 3.141592653589793}
+    - {name: A3, team: blue, position: [-4.5, -2.5], yaw: 0.0}
+    - {name: B1, team: red, position: [4.5, 2.4], yaw: 3.141592653589793}
+    - {name: B2, team: red, position: [0.8, 2.4], yaw: 3.141592653589793}
+    - {name: B3, team: red, position: [4.5, -2.5], yaw: 3.141592653589793}
+pretrained:
+  command: [0.4, 0.0, 0.0] # body-frame vx m/s, vy m/s, yaw rate rad/s; Booster only
+  release_distance: 0.7    # stop sender's velocity command after ball travels this far
+  kp_scale: 1.0            # multiply upstream per-joint controller gains
+  kd_scale: 1.0
+  action_scale: 1.0        # multiply upstream action-to-angle scale
+  joint_damping: null     # null preserves upstream model damping; scalar overrides it
+passing:
+  sender: A1
+  receiver: A2
+  kick_start_time: 0.7
+  backswing_duration: 0.35
+  strike_duration: 0.16
+  recover_duration: 0.6
+  backswing: {right_hip_pitch_joint: 0.25, right_knee_pitch_joint: 0.45, right_ankle_pitch_joint: -0.65}
+  strike: {right_hip_pitch_joint: -0.65, right_knee_pitch_joint: 0.25, right_ankle_pitch_joint: 0.3}
+  receiver_pose: {right_ankle_pitch_joint: -0.75} # raised toe absorbs the incoming rolling ball
+  receive_radius: 0.45
+  receive_speed: 0.25
+  receive_hold: 0.3
+  timeout: 12.0
+render:
+  width: 1280
+  height: 720
+  fps: 30
+  camera_distance: 10.0
+  camera_azimuth: 95
+  camera_elevation: -35
+  camera_lookat: [0.0, 0.0, 0.3]

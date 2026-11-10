@@ -1,0 +1,39 @@
+project: cooperative_humanoid_handoff
+status: running_baseline_preflight
+updated: '2026-11-10'
+stage: 00_control_consistency
+server: <project-root>
+gpu_physical_index: 1
+execution: finite_serial_experiments_with_live_followthrough
+objective: >-
+  Test whether partner-capability-conditioned handoff modelling improves sustained
+  cooperation while both robots learn. Establish a valid baseline before making
+  claims about degradation, recursive improvement, or scientific novelty.
+confirmed_preferences:
+  eventual_hardware: multiple_Booster_K1
+  prototype: existing_G1_skills_for_mechanism_validation
+  deployment_observations: onboard_vision_proprioception_and_small_intent_messages
+  first_milestone: simulation_pilot_before_full_research_investment
+  rsi: recursive_self_improvement
+current_experiment: experiments/00_control_consistency/protocol.md
+heldout:
+  reserved_seed: 240000
+  reserved_n: 1024
+  use_during_development: false
+next:
+  - Complete legacy/current fixed-initial-state checkpoint repeatability audits.
+  - Complete frozen-trajectory forecasts and three full-scale smoke updates.
+  - Run serial matched-update pilot only after correctness and memory checks pass.
+  - Add action-effect interventions before interpreting WM accuracy as control utility.
+checks:
+  cpu_regressions: 8_passed
+  controller_conformance:
+    worlds: 16
+    steps: 299
+    sender_command_max_error_rad: 1.1920928955078125e-7
+    sender_memory_max_error: 0.0
+    receiver_command_max_error_rad: 0.0
+    finite_state_gradients: true
+publication:
+  repository: https://github.com/Raphinha2006/Humanoid_Cooperative_Soccer
+  status: preparing_public_release

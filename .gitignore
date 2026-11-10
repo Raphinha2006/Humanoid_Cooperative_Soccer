@@ -1,0 +1,27 @@
+# Downloaded resources and generated research outputs
+simulation/assets/
+simulation/policies/*
+!simulation/policies/.gitignore
+simulation/third_party/
+**/runs/
+**/outputs/
+**/checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.mp4
+*.log
+*.egg-info/
+.venv*/
+**/.venv*/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secrets*

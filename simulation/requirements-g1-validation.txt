@@ -1,0 +1,12 @@
+# Python 3.11, isolated from the legacy MuJoCo 3.3.7 K1 environment.
+# Run with PYTHONPATH=.; pyproject.toml intentionally retains the old K1 pin.
+mujoco==3.12.0
+numpy==2.4.6
+torch==2.7.0
+PyYAML==6.0.2
+onnxruntime==1.23.2
+imageio==2.37.0
+imageio-ffmpeg==0.8.1
+Pillow==11.3.0
+matplotlib==3.10.3
+pytest==9.1.1

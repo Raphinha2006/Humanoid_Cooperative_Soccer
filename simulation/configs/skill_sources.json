@@ -1,0 +1,41 @@
+{
+  "repository": "NUbots/NUbots_K1",
+  "revision": "023d1c41f736d62667eda3f77c852c3655ddba25",
+  "files": [
+    {
+      "path": "module/skill/SimK1Kick/data/kick.onnx",
+      "sha256": "f726cf487f9fd17843e1fcd59e513511b2683f6fdeb29c25f04e08fc9c55b421",
+      "size": 846935
+    },
+    {
+      "path": "module/skill/SimK1Kick/data/config/SimK1Kick.yaml",
+      "sha256": "14b0d46efc6b84ecd487c2dff34cc42bd84e7d7876e88741c8eb9f41175e5b17",
+      "size": 3026
+    },
+    {
+      "path": "module/skill/SimK1Kick/src/SimK1Kick.cpp",
+      "sha256": "2f513c50076ff820bcebe6eb9dcc249d9056fba1301c2a2c7680b8e03acfe455",
+      "size": 14577
+    },
+    {
+      "path": "module/skill/SimK1Walk/data/walk.onnx",
+      "sha256": "c39509671359b03949702cb2ecfa7b72d5738c7694a512452d5b1192b6108841",
+      "size": 844879
+    },
+    {
+      "path": "module/skill/SimK1Walk/data/config/SimK1Walk.yaml",
+      "sha256": "e44812056e0af99f91b12bb03f36f9d8dc353be078777d283f9524692c82276e",
+      "size": 3156
+    },
+    {
+      "path": "module/skill/SimK1Walk/src/SimK1Walk.cpp",
+      "sha256": "42cb4971354339d2bf5ef1ff06847da50eff8cb56d765cecd911d69de14081ab",
+      "size": 21162
+    },
+    {
+      "path": "LICENCE",
+      "sha256": "a33a04500c30a0e9cd47d358d19f737c97c24324e37fdf6af1cb07e2dda07e4f",
+      "size": 1063
+    }
+  ]
+}

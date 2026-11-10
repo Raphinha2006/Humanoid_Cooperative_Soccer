@@ -1,0 +1,37 @@
+{
+  "project": "https://joga.csail.mit.edu/",
+  "interface": "https://joga.csail.mit.edu/demo/js/sim.js?v=36",
+  "purpose": "G1 native policy baseline, local research; training code marked Code (soon) on public demo",
+  "files": [
+    {
+      "path": "skills.json",
+      "sha256": "55709c4b37eaf7ef786d301fd23acd795f81cf80f05b4f7d11e1245f6db0859b",
+      "size": 9595
+    },
+    {
+      "path": "scene.xml",
+      "sha256": "bfa8a8fefb8e07f122ef589ef1b3ed35070209238290c6bf5929f21098bcdfd0",
+      "size": 58440
+    },
+    {
+      "path": "policy_loco_gc3_i89400.bin",
+      "sha256": "f79f6bd54e8982f05962d16f81a7dd617b74f40e6f79daa70ce9a83c03908b08",
+      "size": 1341136
+    },
+    {
+      "path": "policy_receiving_newball_fulldr_i99999.bin",
+      "sha256": "cc0513e2e3997d857b56ff7293fead4e23d3df4a6cc8eb7a59cff270aeafbd57",
+      "size": 1341136
+    },
+    {
+      "path": "policy_passing_pam_uan_c3.bin",
+      "sha256": "a9eec8295c0663efc46f26568d916f94828eea03266432ed6f814cad32c6ffa1",
+      "size": 1334968
+    },
+    {
+      "path": "meshes_v2.bin",
+      "sha256": "704f692b77aa24b7eff7e67e71e53fe5487fd7f766bf7873f535cf9edf03bab2",
+      "size": 4878955
+    }
+  ]
+}

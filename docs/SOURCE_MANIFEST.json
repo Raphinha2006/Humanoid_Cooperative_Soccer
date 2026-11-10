@@ -1,0 +1,430 @@
+{
+  "export_date": "2026-11-10",
+  "scope": "Curated simulation/research source; historical repository and downloaded resources excluded.",
+  "files": {
+    "simulation/soccer_sim/__init__.py": {
+      "sha256": "81ebb8754c07c2045153aab891efdd7ac70f13fcd134bb968e8351a87e5f2c64",
+      "source_sha256": "81ebb8754c07c2045153aab891efdd7ac70f13fcd134bb968e8351a87e5f2c64"
+    },
+    "simulation/soccer_sim/cli.py": {
+      "sha256": "442cd0f5ea1a2be49d6063e2834e8ad2b7165cdbd4320cbe99d8282481abcc5b",
+      "source_sha256": "442cd0f5ea1a2be49d6063e2834e8ad2b7165cdbd4320cbe99d8282481abcc5b"
+    },
+    "simulation/soccer_sim/config.py": {
+      "sha256": "ab19f3cf8bcb04004648939d7274e4ad3ca3d8aaa9ab33163dd3a80a28686885",
+      "source_sha256": "ab19f3cf8bcb04004648939d7274e4ad3ca3d8aaa9ab33163dd3a80a28686885"
+    },
+    "simulation/soccer_sim/direct_env.py": {
+      "sha256": "4366604cd1c4ef01c9fd250de4493ef36711bd1794de99d7c6ef44b64e8ef3e6",
+      "source_sha256": "4366604cd1c4ef01c9fd250de4493ef36711bd1794de99d7c6ef44b64e8ef3e6"
+    },
+    "simulation/soccer_sim/direct_eval.py": {
+      "sha256": "80a0b0624835f23dc296de5155312f246444ab44013a6fdf7112112d1ba8ada0",
+      "source_sha256": "80a0b0624835f23dc296de5155312f246444ab44013a6fdf7112112d1ba8ada0"
+    },
+    "simulation/soccer_sim/direct_model.py": {
+      "sha256": "e146e4959e72de9fc44619a28c1e46e5b79db534f795ea4a1feac4a1fc8f3fa0",
+      "source_sha256": "e146e4959e72de9fc44619a28c1e46e5b79db534f795ea4a1feac4a1fc8f3fa0"
+    },
+    "simulation/soccer_sim/direct_train.py": {
+      "sha256": "7a7702a3063b3e10c9404bee261de88e69def82ab84a4c13936db311e784a4e1",
+      "source_sha256": "7a7702a3063b3e10c9404bee261de88e69def82ab84a4c13936db311e784a4e1"
+    },
+    "simulation/soccer_sim/env.py": {
+      "sha256": "ad140fead71a6cf272b94f3b2f589c3b891526e69fcb1b7a0040b400f27e14e6",
+      "source_sha256": "ad140fead71a6cf272b94f3b2f589c3b891526e69fcb1b7a0040b400f27e14e6"
+    },
+    "simulation/soccer_sim/gpu_receive/__init__.py": {
+      "sha256": "d1fabaf5d736ea578f843462a32c37d497a10ccce9676f4b6c507c2e22bc5264",
+      "source_sha256": "d1fabaf5d736ea578f843462a32c37d497a10ccce9676f4b6c507c2e22bc5264"
+    },
+    "simulation/soccer_sim/gpu_receive/audit.py": {
+      "sha256": "31f63c88d34dc3d6d0e559d42981f18f3c01a3f9f3372cc79ea2e24133ae9449",
+      "source_sha256": "31f63c88d34dc3d6d0e559d42981f18f3c01a3f9f3372cc79ea2e24133ae9449"
+    },
+    "simulation/soccer_sim/gpu_receive/benchmark.py": {
+      "sha256": "684cc4ec1d5034176a537313d618b07bad200fa4c918b5269f5edfff304ea4f4",
+      "source_sha256": "684cc4ec1d5034176a537313d618b07bad200fa4c918b5269f5edfff304ea4f4"
+    },
+    "simulation/soccer_sim/gpu_receive/buffer.py": {
+      "sha256": "5937d15a3db9728c038090e444eed3c868a57913dd53a803c60349e315c5841d",
+      "source_sha256": "5937d15a3db9728c038090e444eed3c868a57913dd53a803c60349e315c5841d"
+    },
+    "simulation/soccer_sim/gpu_receive/controller.py": {
+      "sha256": "4477ad75866b94d611537b0591a91ceefced8fe76c48e3afaa49bf3596d84d60",
+      "source_sha256": "4477ad75866b94d611537b0591a91ceefced8fe76c48e3afaa49bf3596d84d60"
+    },
+    "simulation/soccer_sim/gpu_receive/cpu_confirm.py": {
+      "sha256": "01a2dc04e96ae53fceb109ac2bdd5fac1096ff587ab79cb3ea3340b3be6722b6",
+      "source_sha256": "01a2dc04e96ae53fceb109ac2bdd5fac1096ff587ab79cb3ea3340b3be6722b6"
+    },
+    "simulation/soccer_sim/gpu_receive/env.py": {
+      "sha256": "9ab6d0cd9d33d8c0f2e6dbcb5f332f48cea07fbdbb9316ca4c055afeae37d295",
+      "source_sha256": "9ab6d0cd9d33d8c0f2e6dbcb5f332f48cea07fbdbb9316ca4c055afeae37d295"
+    },
+    "simulation/soccer_sim/gpu_receive/evaluate.py": {
+      "sha256": "99954f81d81b2628b7bfa2cbdb21cd6d14b25cc0ee82341159e034e4c70fe435",
+      "source_sha256": "99954f81d81b2628b7bfa2cbdb21cd6d14b25cc0ee82341159e034e4c70fe435"
+    },
+    "simulation/soccer_sim/gpu_receive/frozen_diagnostic.py": {
+      "sha256": "c369a731868418c8e9d0f425358a677d294761e278f25769729b305d45199504",
+      "source_sha256": "c369a731868418c8e9d0f425358a677d294761e278f25769729b305d45199504"
+    },
+    "simulation/soccer_sim/gpu_receive/model.py": {
+      "sha256": "88169d27537242058218af190f338f04e56ddb49a2aaa6575cf4d8e66f1042de",
+      "source_sha256": "88169d27537242058218af190f338f04e56ddb49a2aaa6575cf4d8e66f1042de"
+    },
+    "simulation/soccer_sim/gpu_receive/native.py": {
+      "sha256": "e9135809072c0ea7e27f65e076b874e7a53ed3496852c4511ea15349e38508b4",
+      "source_sha256": "e9135809072c0ea7e27f65e076b874e7a53ed3496852c4511ea15349e38508b4"
+    },
+    "simulation/soccer_sim/gpu_receive/ppo.py": {
+      "sha256": "b7a49007eaf2e7eae4c43bd0a8e24563ba23a81a6417062ab8022e4957f4fd77",
+      "source_sha256": "b7a49007eaf2e7eae4c43bd0a8e24563ba23a81a6417062ab8022e4957f4fd77"
+    },
+    "simulation/soccer_sim/gpu_receive/prediction.py": {
+      "sha256": "22e739b8a719a25262692a5228733ca76a31a53250db8482ba91705637fc8d54",
+      "source_sha256": "22e739b8a719a25262692a5228733ca76a31a53250db8482ba91705637fc8d54"
+    },
+    "simulation/soccer_sim/gpu_receive/receipt.py": {
+      "sha256": "8e227313d14587f6ae0e7eff43271890919cad45ef9cd5c6a5864cdff50c27c5",
+      "source_sha256": "8e227313d14587f6ae0e7eff43271890919cad45ef9cd5c6a5864cdff50c27c5"
+    },
+    "simulation/soccer_sim/gpu_receive/render.py": {
+      "sha256": "a9142c07de89df930be2e2d828dac6577965023c93d80179b6c66b5287fbe94c",
+      "source_sha256": "a9142c07de89df930be2e2d828dac6577965023c93d80179b6c66b5287fbe94c"
+    },
+    "simulation/soccer_sim/gpu_receive/train.py": {
+      "sha256": "1b9099cb002b17bd9f31343a92cb764f6fa42210a3f6607e5dd1c66248e6e3d7",
+      "source_sha256": "1b9099cb002b17bd9f31343a92cb764f6fa42210a3f6607e5dd1c66248e6e3d7"
+    },
+    "simulation/soccer_sim/joga.py": {
+      "sha256": "bb46059a1890b0007a627585dcd2622550d7070b2203e1d2354abd4f6e40622e",
+      "source_sha256": "bb46059a1890b0007a627585dcd2622550d7070b2203e1d2354abd4f6e40622e"
+    },
+    "simulation/soccer_sim/joga_env.py": {
+      "sha256": "e85272ea23cf5ae23b657e1571039ae4527390cf7cb29bfa420f8b4d0f56b37e",
+      "source_sha256": "e85272ea23cf5ae23b657e1571039ae4527390cf7cb29bfa420f8b4d0f56b37e"
+    },
+    "simulation/soccer_sim/passing.py": {
+      "sha256": "c85edbd8000fe9ab6cdbcdb22017f93a4edcc13c56b8fb5dff38f19d0f43c5f5",
+      "source_sha256": "c85edbd8000fe9ab6cdbcdb22017f93a4edcc13c56b8fb5dff38f19d0f43c5f5"
+    },
+    "simulation/soccer_sim/policy_runner.py": {
+      "sha256": "c8cf41b2f320878cee3c250a0a3813a4601585c945fa0192cea275f4732a9709",
+      "source_sha256": "c8cf41b2f320878cee3c250a0a3813a4601585c945fa0192cea275f4732a9709"
+    },
+    "simulation/soccer_sim/policy_scene.py": {
+      "sha256": "6b74f002b4bfb166ad8bdfb7da65edbb06e7549221bf07e0f92e6a2f4c46c687",
+      "source_sha256": "6b74f002b4bfb166ad8bdfb7da65edbb06e7549221bf07e0f92e6a2f4c46c687"
+    },
+    "simulation/soccer_sim/pretrained.py": {
+      "sha256": "9fd8921c01a674f147151557b2d1590e52e482d89d927093b12987bada944a9c",
+      "source_sha256": "9fd8921c01a674f147151557b2d1590e52e482d89d927093b12987bada944a9c"
+    },
+    "simulation/soccer_sim/scene.py": {
+      "sha256": "6fb8912c9bcbedd1497e07eafda59eee2526d522aa7755643bf0a6cbdb206aae",
+      "source_sha256": "6fb8912c9bcbedd1497e07eafda59eee2526d522aa7755643bf0a6cbdb206aae"
+    },
+    "simulation/soccer_sim/skill_policies.py": {
+      "sha256": "94c5734a6df256447eb4ea54f2f95e74ebe9e749f0356a7f4c720ccf3fb973dd",
+      "source_sha256": "94c5734a6df256447eb4ea54f2f95e74ebe9e749f0356a7f4c720ccf3fb973dd"
+    },
+    "simulation/soccer_sim/supermimic_core/LICENSE": {
+      "sha256": "e7cab5ca2b834298d3b7d28e7e69954ae8bb3d32216f505d68674fedd7de7329",
+      "source_sha256": "e7cab5ca2b834298d3b7d28e7e69954ae8bb3d32216f505d68674fedd7de7329"
+    },
+    "simulation/soccer_sim/supermimic_core/SOURCE.json": {
+      "sha256": "be36ec212d09ab955f85a0d7da532a2de14236d106cf0f7e59024b64aa87e3e9",
+      "source_sha256": "be36ec212d09ab955f85a0d7da532a2de14236d106cf0f7e59024b64aa87e3e9"
+    },
+    "simulation/soccer_sim/supermimic_core/__init__.py": {
+      "sha256": "1b8fd5c5401e5acc0ae26f6b64452932de6b3f0c35b6a8c899f2ea0210735716",
+      "source_sha256": "1b8fd5c5401e5acc0ae26f6b64452932de6b3f0c35b6a8c899f2ea0210735716"
+    },
+    "simulation/soccer_sim/supermimic_core/kinematics.py": {
+      "sha256": "ecec9b8a29100952b071ec6f94434812da7b1059d052b02011c466ed2ec6783c",
+      "source_sha256": "ecec9b8a29100952b071ec6f94434812da7b1059d052b02011c466ed2ec6783c"
+    },
+    "simulation/soccer_sim/supermimic_core/math.py": {
+      "sha256": "6a847a3721c48736b55492a4e104647a8b4cce6f89ca8b2113ebdc4304fa2936",
+      "source_sha256": "6a847a3721c48736b55492a4e104647a8b4cce6f89ca8b2113ebdc4304fa2936"
+    },
+    "simulation/soccer_sim/supermimic_core/networks.py": {
+      "sha256": "fa3062bfa5535e0ae2336c83f097940d692dfdf04e33c2e3efa09c83bb10202f",
+      "source_sha256": "fa3062bfa5535e0ae2336c83f097940d692dfdf04e33c2e3efa09c83bb10202f"
+    },
+    "simulation/soccer_sim/wm_env.py": {
+      "sha256": "8ef3250d7d20e6f79acc90ed9d9f99f4376b96f12e41821f0902bd249e003e71",
+      "source_sha256": "8ef3250d7d20e6f79acc90ed9d9f99f4376b96f12e41821f0902bd249e003e71"
+    },
+    "simulation/soccer_sim/wm_eval.py": {
+      "sha256": "71fc983efa8276be4ba9fa74375e14cc453286b2b9a490af7467e2f017d554e3",
+      "source_sha256": "71fc983efa8276be4ba9fa74375e14cc453286b2b9a490af7467e2f017d554e3"
+    },
+    "simulation/soccer_sim/wm_train.py": {
+      "sha256": "b165d8d68426c542d7338ddb1736fac0ba8f82fb4d6ec81be69134ddc476bf49",
+      "source_sha256": "b165d8d68426c542d7338ddb1736fac0ba8f82fb4d6ec81be69134ddc476bf49"
+    },
+    "simulation/soccer_sim/world_model.py": {
+      "sha256": "56df94686adcaefb2c49f7b61e45850c518e94bee4dd3169adc760c362ee245d",
+      "source_sha256": "56df94686adcaefb2c49f7b61e45850c518e94bee4dd3169adc760c362ee245d"
+    },
+    "simulation/configs/bhuman_skill_sources.json": {
+      "sha256": "759980778abcc4f8c58abf60d66ae06709274950923082f97540853410c1e821",
+      "source_sha256": "759980778abcc4f8c58abf60d66ae06709274950923082f97540853410c1e821"
+    },
+    "simulation/configs/hsl_m_3v3.yaml": {
+      "sha256": "83b6a6ebb4ef73712fc1a9b04aa61695431a7087e8d13d50630066ae843d88d4",
+      "source_sha256": "83b6a6ebb4ef73712fc1a9b04aa61695431a7087e8d13d50630066ae843d88d4"
+    },
+    "simulation/configs/hsl_m_pretrained_pass.yaml": {
+      "sha256": "fe4797779604a5b521fa82a4b7b01c47029b6d27082dfd48d60135c802165bbe",
+      "source_sha256": "fe4797779604a5b521fa82a4b7b01c47029b6d27082dfd48d60135c802165bbe"
+    },
+    "simulation/configs/joga_physics_overrides.example.yaml": {
+      "sha256": "df0dce7958750c949864b5061ff0fa9c9c0f8dd9da68e015b01724f6bc41de24",
+      "source_sha256": "df0dce7958750c949864b5061ff0fa9c9c0f8dd9da68e015b01724f6bc41de24"
+    },
+    "simulation/configs/joga_sources.json": {
+      "sha256": "8276bc78a7ec3589d715471622758e7e4530d941391aedfe5301496760df986f",
+      "source_sha256": "8276bc78a7ec3589d715471622758e7e4530d941391aedfe5301496760df986f"
+    },
+    "simulation/configs/skill_sources.json": {
+      "sha256": "ea17e84e0d2e3941ece718cd652fb5cb4d687d242e27069e17d8695cb0f011e6",
+      "source_sha256": "ea17e84e0d2e3941ece718cd652fb5cb4d687d242e27069e17d8695cb0f011e6"
+    },
+    "simulation/configs/supermimic_g1_receive.yaml": {
+      "sha256": "e710b18ee2da9377cc9545339ad80092fa547fafd81a0b5905611e3d8b38da43",
+      "source_sha256": "e710b18ee2da9377cc9545339ad80092fa547fafd81a0b5905611e3d8b38da43"
+    },
+    "simulation/configs/supermimic_k1_receive.yaml": {
+      "sha256": "e1d59e276a259d3213df249dfad60144237c8ebccd00f78eef846c5af615b28b",
+      "source_sha256": "e1d59e276a259d3213df249dfad60144237c8ebccd00f78eef846c5af615b28b"
+    },
+    "simulation/configs/wm_pass.yaml": {
+      "sha256": "625fd34454fb71139a1b928387357969c97639aabc8bb1c6e1b38cf381e3b5f1",
+      "source_sha256": "625fd34454fb71139a1b928387357969c97639aabc8bb1c6e1b38cf381e3b5f1"
+    },
+    "simulation/configs/wm_pass_conservative.yaml": {
+      "sha256": "80eb5a6338ce3c505f6adfcdb7245121cf1877cf3b6aaa2e2fad37c4db0de125",
+      "source_sha256": "80eb5a6338ce3c505f6adfcdb7245121cf1877cf3b6aaa2e2fad37c4db0de125"
+    },
+    "simulation/configs/wm_pass_facing.yaml": {
+      "sha256": "c4f0a513d9e547e900fe679a3652146b2e8dae03d884487e13763465ba2162cc",
+      "source_sha256": "c4f0a513d9e547e900fe679a3652146b2e8dae03d884487e13763465ba2162cc"
+    },
+    "simulation/configs/wm_pass_facing_gentle.yaml": {
+      "sha256": "d0624cba41d0bfd30fd65bbff607ad27709f364a6961a3e531b3466e8e169491",
+      "source_sha256": "d0624cba41d0bfd30fd65bbff607ad27709f364a6961a3e531b3466e8e169491"
+    },
+    "simulation/configs/wm_pass_facing_gentle_no_wm.yaml": {
+      "sha256": "4dc5467a392450a952e423e7b73e818329fde6c324ca2b0233ac596de5910f9a",
+      "source_sha256": "4dc5467a392450a952e423e7b73e818329fde6c324ca2b0233ac596de5910f9a"
+    },
+    "simulation/configs/wm_pass_facing_no_wm.yaml": {
+      "sha256": "1584b741375131d1656d7173aabe6c6d75e076d3e96d2900de6b6d857c3117f7",
+      "source_sha256": "1584b741375131d1656d7173aabe6c6d75e076d3e96d2900de6b6d857c3117f7"
+    },
+    "simulation/configs/wm_pass_intercept.yaml": {
+      "sha256": "da7bfcc06e588372a4ee07f8f7f0fcf5d0d554569be2f7afd2029b8628530920",
+      "source_sha256": "da7bfcc06e588372a4ee07f8f7f0fcf5d0d554569be2f7afd2029b8628530920"
+    },
+    "simulation/configs/wm_pass_no_wm.yaml": {
+      "sha256": "742813fa4239f62ae964b3e656354d1b7b25dd612250608ed0869d078cc4535d",
+      "source_sha256": "742813fa4239f62ae964b3e656354d1b7b25dd612250608ed0869d078cc4535d"
+    },
+    "simulation/tests/test_direct.py": {
+      "sha256": "b09f967ba4261d43f40442c8523469a4bcb626456a0f6bb8c8e75745f8c97b46",
+      "source_sha256": "b09f967ba4261d43f40442c8523469a4bcb626456a0f6bb8c8e75745f8c97b46"
+    },
+    "simulation/tests/test_gpu_longrun.py": {
+      "sha256": "99e534ae0dff3e928e431e7fab408604a8e8f6e24a46ce98f9603d8f868b98f0",
+      "source_sha256": "99e534ae0dff3e928e431e7fab408604a8e8f6e24a46ce98f9603d8f868b98f0"
+    },
+    "simulation/tests/test_gpu_receipt.py": {
+      "sha256": "ddc0579db3fd9fdfaf83249bbf2e2b60deb2ff783ce8fd49a710bdcc039e87b7",
+      "source_sha256": "ddc0579db3fd9fdfaf83249bbf2e2b60deb2ff783ce8fd49a710bdcc039e87b7"
+    },
+    "simulation/tests/test_gpu_receive.py": {
+      "sha256": "64060ab0f187defa66ebfee6b291da1bdb9f75db6159a4915473f1857da64c7a",
+      "source_sha256": "64060ab0f187defa66ebfee6b291da1bdb9f75db6159a4915473f1857da64c7a"
+    },
+    "simulation/tests/test_gpu_sampling.py": {
+      "sha256": "e78526432dc450330815d43fe852063e4f33e3bea6b924ef89201daac0d5f7b9",
+      "source_sha256": "e78526432dc450330815d43fe852063e4f33e3bea6b924ef89201daac0d5f7b9"
+    },
+    "simulation/tests/test_joga.py": {
+      "sha256": "76b0b8f843747426a96842273c36f8e3051a471724c21494ddb6a1751819ab15",
+      "source_sha256": "76b0b8f843747426a96842273c36f8e3051a471724c21494ddb6a1751819ab15"
+    },
+    "simulation/tests/test_physics.py": {
+      "sha256": "f19f74235ed589456d0facb57be596917dd624aa8e8817134095d27f9335b5d2",
+      "source_sha256": "f19f74235ed589456d0facb57be596917dd624aa8e8817134095d27f9335b5d2"
+    },
+    "simulation/tests/test_pretrained.py": {
+      "sha256": "0721daa4d84b9bd1bdc1fc8eb0db7f8fb34eb6df3e97284da5a948fb80ee765f",
+      "source_sha256": "0721daa4d84b9bd1bdc1fc8eb0db7f8fb34eb6df3e97284da5a948fb80ee765f"
+    },
+    "simulation/tests/test_sender_consistency.py": {
+      "sha256": "6c0aa19d71396df2e6bda64ff639b11cca411eda72aa4d9909c612d88209a6f2",
+      "source_sha256": "6c0aa19d71396df2e6bda64ff639b11cca411eda72aa4d9909c612d88209a6f2"
+    },
+    "simulation/tests/test_skill_env.py": {
+      "sha256": "0bdf2597b1dfc29a18532591f61e7eda862009a57c88cb690f84021a5ae3b27a",
+      "source_sha256": "0bdf2597b1dfc29a18532591f61e7eda862009a57c88cb690f84021a5ae3b27a"
+    },
+    "simulation/tests/test_world_model.py": {
+      "sha256": "0f0c0381af7781bd0ff997ca1f4711a97a1fd94aa5e71d8dd54d6efb5f8b9486",
+      "source_sha256": "0f0c0381af7781bd0ff997ca1f4711a97a1fd94aa5e71d8dd54d6efb5f8b9486"
+    },
+    "simulation/tools/fetch_assets.py": {
+      "sha256": "81ef6b94ca8809aebdadd6217f747aeccfbb745a2e5b211dacb8e6ae7c691974",
+      "source_sha256": "81ef6b94ca8809aebdadd6217f747aeccfbb745a2e5b211dacb8e6ae7c691974"
+    },
+    "simulation/tools/fetch_joga.py": {
+      "sha256": "87401a1504bf9ddd9d726961ced743eba75c7198610734c0316f4b07c30192e1",
+      "source_sha256": "87401a1504bf9ddd9d726961ced743eba75c7198610734c0316f4b07c30192e1"
+    },
+    "simulation/tools/fetch_policies.py": {
+      "sha256": "38c3c76f420a4f50741bd56d81b2f0a913a61a3ae80acdb540b33439a69fd0bd",
+      "source_sha256": "38c3c76f420a4f50741bd56d81b2f0a913a61a3ae80acdb540b33439a69fd0bd"
+    },
+    "simulation/tools/fetch_skills.py": {
+      "sha256": "12b0ba07184e8d8d83b433ff439438ba68eb47488d3f4b7bb2f6afaf869dbe4d",
+      "source_sha256": "12b0ba07184e8d8d83b433ff439438ba68eb47488d3f4b7bb2f6afaf869dbe4d"
+    },
+    "simulation/tools/finish_gpu_receive_campaign.py": {
+      "sha256": "111ab878133c2d6a70be6ff3f40e51b5730b0ddc739f7dda1f7fc6bd95d04ee4",
+      "source_sha256": "111ab878133c2d6a70be6ff3f40e51b5730b0ddc739f7dda1f7fc6bd95d04ee4"
+    },
+    "simulation/tools/monitor_gpu_receive.py": {
+      "sha256": "fd342a337dad17d50a1ff9a72b2c4fa35d0dc49c3ccbe1d30f968ade4c74cef4",
+      "source_sha256": "fd342a337dad17d50a1ff9a72b2c4fa35d0dc49c3ccbe1d30f968ade4c74cef4"
+    },
+    "simulation/tools/plot_gpu_prediction.py": {
+      "sha256": "a01fd8383d360ccfb1a207af9b46192fb538084df3406a92c5f518a4fbe97f56",
+      "source_sha256": "a01fd8383d360ccfb1a207af9b46192fb538084df3406a92c5f518a4fbe97f56"
+    },
+    "simulation/tools/profile_gpu_receive.py": {
+      "sha256": "f0291760d0cbffd550988e680aebdca7af9414c8d2facb5e354670539fcd6f9e",
+      "source_sha256": "f0291760d0cbffd550988e680aebdca7af9414c8d2facb5e354670539fcd6f9e"
+    },
+    "simulation/tools/recover_gpu_campaign.py": {
+      "sha256": "a13625dde57f10597248658458bec17216ec3f1201dc8bb6630e2478d804a321",
+      "source_sha256": "a13625dde57f10597248658458bec17216ec3f1201dc8bb6630e2478d804a321"
+    },
+    "simulation/tools/report_direct.py": {
+      "sha256": "373510c455b0256b8f9e774d73c3bc6eea54aecff82cf61d92fbf251e2ac768b",
+      "source_sha256": "373510c455b0256b8f9e774d73c3bc6eea54aecff82cf61d92fbf251e2ac768b"
+    },
+    "simulation/tools/report_gpu_receive.py": {
+      "sha256": "2e312d57dc50a2f98586e2145016ece7463b3307e12466f274576e02b8565d62",
+      "source_sha256": "2e312d57dc50a2f98586e2145016ece7463b3307e12466f274576e02b8565d62"
+    },
+    "simulation/tools/report_wm.py": {
+      "sha256": "e4bcc51c83f680bb6dc70dc97f885ef0aa7f6718f5b8b2e8d0b7fa25992fdb01",
+      "source_sha256": "e4bcc51c83f680bb6dc70dc97f885ef0aa7f6718f5b8b2e8d0b7fa25992fdb01"
+    },
+    "simulation/tools/run_cooperation_pilot.py": {
+      "sha256": "1efcd23c5b4db20e6832d3e47feb62661adf89c063b42327074cba24b863c9f1",
+      "source_sha256": "1efcd23c5b4db20e6832d3e47feb62661adf89c063b42327074cba24b863c9f1"
+    },
+    "simulation/tools/run_gpu_receive_campaign.py": {
+      "sha256": "66eeac19a21e091d6fed8417355b1cd54e527ed5f850f1020d61a43b8db73349",
+      "source_sha256": "66eeac19a21e091d6fed8417355b1cd54e527ed5f850f1020d61a43b8db73349"
+    },
+    "simulation/tools/run_gpu_receive_longrun.py": {
+      "sha256": "9500b606f89a1f414f826f8f8104c0ee2d1fb94b267dd884ef5ef871f7e3ba27",
+      "source_sha256": "9500b606f89a1f414f826f8f8104c0ee2d1fb94b267dd884ef5ef871f7e3ba27"
+    },
+    "simulation/tools/run_gpu_receive_pair.py": {
+      "sha256": "587efdffd2eca5ffc62218be0b4e147798245fb4ac1915204dd06fb3bc3525ae",
+      "source_sha256": "587efdffd2eca5ffc62218be0b4e147798245fb4ac1915204dd06fb3bc3525ae"
+    },
+    "simulation/tools/run_policy_checks.sh": {
+      "sha256": "b6bbfc1d75d8e1bde37268fa6f9912c42055940c6251289c9475afa6bdc5b924",
+      "source_sha256": "b6bbfc1d75d8e1bde37268fa6f9912c42055940c6251289c9475afa6bdc5b924"
+    },
+    "simulation/tools/run_server_demo.sh": {
+      "sha256": "7b515bbf76fd0d0ae700900a240be5228a74742c073005d4ec4266d9276b6ab3",
+      "source_sha256": "7b515bbf76fd0d0ae700900a240be5228a74742c073005d4ec4266d9276b6ab3"
+    },
+    "simulation/docs/ARCHITECTURE_GPU.md": {
+      "sha256": "e4e4bc4adba3ce7eea673af1a2dafba5c58bbdc71f75db176c2cc2307d7eb444",
+      "source_sha256": "d0b4ef6bb45824f33fc358fec33a6740cb4220665401f7942e3a6aa2e338ec13"
+    },
+    "simulation/docs/ARCHITECTURE_V2.md": {
+      "sha256": "ce431596acafa34712af091c127059a0825f215641de1f6120c280419286316c",
+      "source_sha256": "6de766397215e29edbad63e52f0e518fe544031f3b766cd7899a85793432cd4d"
+    },
+    "simulation/docs/DIRECT_RESULTS_V2.md": {
+      "sha256": "2386630d71d932afe1ae4ac36745c45f82de034a0bf2035e5c01273ca18ae20c",
+      "source_sha256": "8bfe77b65abb76f07e2ed7c3a59bce06f1dcfab82f2a06be2eef549e9776a467"
+    },
+    "simulation/docs/G1_GPU_TRAINING.md": {
+      "sha256": "8422cf73d03780fad894fb24994555fa1a2041be7d37260d5d0e5d04326e9219",
+      "source_sha256": "8af2e472188a88197facc7a6f7f99334a641e7115625dabe24d8e242693e882e"
+    },
+    "simulation/docs/G1_PARAMETERS.md": {
+      "sha256": "a1694a19024a28001bce1cfda26e3379231bba15d1e37f8a0e3809253e59be9e",
+      "source_sha256": "a1694a19024a28001bce1cfda26e3379231bba15d1e37f8a0e3809253e59be9e"
+    },
+    "simulation/docs/PARAMETERS.md": {
+      "sha256": "efe3079bea580be3defd5ed6cf382f8971ac71b07deb135e987e5dd7d2be50de",
+      "source_sha256": "efe3079bea580be3defd5ed6cf382f8971ac71b07deb135e987e5dd7d2be50de"
+    },
+    "simulation/docs/POLICIES.md": {
+      "sha256": "c146dcbb983c2bbe531493a16d0023985137b989b61729d8dc08da2283196b08",
+      "source_sha256": "20c7432edf06da3ec7fc21700f600a68c322aee346d41281efb66636700a618f"
+    },
+    "simulation/docs/SOURCES.md": {
+      "sha256": "fad976a76ff2eaf02f670b122565141248ba3aa498e2b97689854679a86f39ce",
+      "source_sha256": "fad976a76ff2eaf02f670b122565141248ba3aa498e2b97689854679a86f39ce"
+    },
+    "simulation/docs/WORLD_MODEL.md": {
+      "sha256": "49a084525fb2203e4699f08c570e4857d35cf35f5094eca1740ef1d3bae7633d",
+      "source_sha256": "f6e06153fd0aaaa4d2685e2d287b57ffc9e35022ce26febac49bd4ca6e7808b2"
+    },
+    "simulation/docs/WORLD_MODEL_RESULTS.md": {
+      "sha256": "cd8a23f4e460cc55f230db1475d81efbe66d3a75480744b611e5f3be5c0c9d40",
+      "source_sha256": "3f62b53c83b9bf5a75d374fd85ad9fdaad58551939775f4dc0e7ab12d261c041"
+    },
+    "simulation/pyproject.toml": {
+      "sha256": "608fb60c8286c9d7b22b8ca7ff924d2272d21b790e5dbe611e2ceeae37a25d47",
+      "source_sha256": "608fb60c8286c9d7b22b8ca7ff924d2272d21b790e5dbe611e2ceeae37a25d47"
+    },
+    "simulation/requirements-g1-gpu.txt": {
+      "sha256": "380b273a67db470d00ed091b41dcfa90dc0d4e4f97aa4f9fc387a836e324396c",
+      "source_sha256": "380b273a67db470d00ed091b41dcfa90dc0d4e4f97aa4f9fc387a836e324396c"
+    },
+    "simulation/requirements-g1-validation.txt": {
+      "sha256": "0b214fea8630f678140820092b70a76db255b91bc7e120428b30403e744c336b",
+      "source_sha256": "0b214fea8630f678140820092b70a76db255b91bc7e120428b30403e744c336b"
+    },
+    "simulation/research/cooperative_handoff/README.md": {
+      "sha256": "76ac5395927c2de7bfe73fcfd1b9226a5e5dffc0be67009a9b54d0ea89973ae4",
+      "source_sha256": "76ac5395927c2de7bfe73fcfd1b9226a5e5dffc0be67009a9b54d0ea89973ae4"
+    },
+    "simulation/research/cooperative_handoff/experiments/00_control_consistency/protocol.md": {
+      "sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824",
+      "source_sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824"
+    },
+    "simulation/research/cooperative_handoff/findings.md": {
+      "sha256": "e88afad6af53c5f9d84eefb4f2962b889c5d3613c6e838dbc0fe995db56d1233",
+      "source_sha256": "e88afad6af53c5f9d84eefb4f2962b889c5d3613c6e838dbc0fe995db56d1233"
+    },
+    "simulation/research/cooperative_handoff/literature/survey.md": {
+      "sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2",
+      "source_sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2"
+    },
+    "simulation/research/cooperative_handoff/research-log.md": {
+      "sha256": "a10140104f048daf52be4f24ae00a26ec3eb407d59ca674801ebd7c6c48b1e55",
+      "source_sha256": "a10140104f048daf52be4f24ae00a26ec3eb407d59ca674801ebd7c6c48b1e55"
+    },
+    "simulation/research/cooperative_handoff/research-state.yaml": {
+      "sha256": "6f0642f328d00f8aa87f5a5ec0a13a314fde1386234698857974d1299a99b5cc",
+      "source_sha256": "670a91799bcf1a39e8a451939f48787989f087638ee2da5f9b5ba812fbd67cbb"
+    }
+  }
+}

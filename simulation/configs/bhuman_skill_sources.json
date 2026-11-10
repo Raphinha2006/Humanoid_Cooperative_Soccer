@@ -1,0 +1,46 @@
+{
+  "repository": "bhuman/BHumanCodeRelease",
+  "revision": "2e3374ba896da8288607f9a1881b876642fe18b8",
+  "files": [
+    {
+      "path": "Config/NeuralNets/Walk/K1_walk.onnx",
+      "size": 558557,
+      "sha256": "9d1ec18504cb9d05ec708b9430783a2331cabf5415fc0db81c6318472e948e8f"
+    },
+    {
+      "path": "Config/NeuralNets/Walk/K1_kick_inner_soft.onnx",
+      "size": 266715,
+      "sha256": "7943b41c76c841b663d84024168be5ef4ef0af4f5a3524415a40f8665f028da2"
+    },
+    {
+      "path": "Config/NeuralNets/Walk/K1_kick_inner.onnx",
+      "size": 266715,
+      "sha256": "7fb9ea33c36e14332861025f22e92f2f4a7ae7681f4532bdd6e1e78975fe3452"
+    },
+    {
+      "path": "Config/Scenarios/CompetitionWalk/K1/walkingEngine.cfg",
+      "size": 2949,
+      "sha256": "a0a8af819ada04442de3dfb73dba5895bdd7c7ff577a13624f55ccddbf19f10e"
+    },
+    {
+      "path": "Config/Robots/Default/K1/motorParameters.cfg",
+      "size": 3282,
+      "sha256": "330c9e7659717e249f4adff51379ae4fdf650bbe58ee69e4bff6e166a8cea967"
+    },
+    {
+      "path": "Src/Modules/MotionControl/WalkingEngine/WalkingEngine.cpp",
+      "size": 53741,
+      "sha256": "704186f83378272931ccc785095a9d6776bf1963cab572af9797b66943a5a1b2"
+    },
+    {
+      "path": "Src/Modules/MotionControl/WalkingEngine/WalkingEngine.h",
+      "size": 11651,
+      "sha256": "86020512522fe0afbb2792f20913215fa08952b63bcd85f443f31a0ce73d3c6c"
+    },
+    {
+      "path": "License.md",
+      "size": 4313,
+      "sha256": "e67449eaaed833d3c0cb260a9069be3167a34619c5989a8d2c06df9f48d25aa3"
+    }
+  ]
+}

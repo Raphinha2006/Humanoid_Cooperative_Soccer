@@ -1,0 +1,51 @@
+seed: 104
+control_dt: 0.02
+duration: 6.0
+settle_time: 0.8
+kick_start: 0.2
+kick_end: 2.6
+ball_xy: [0.3, 0.0]
+ball_xy_noise: [0.025, 0.025]
+receiver_xy: [1.2, 0.0]
+receiver_xy_noise: [0.1, 0.06]
+walk_command_scale: [0.25, 0.25, 0.6]
+kick_heading_scale: 0.35
+capture_speed: 0.5
+capture_hold: 0.3
+capture_radius: 0.3
+minimum_pass_travel: 0.3
+fall_height: 0.35
+fall_upright: 0.65
+facing_mode: mutual
+facing_tolerance_deg: 30.0
+face_yaw_gain: 1.5
+face_max_yaw_rate: 0.6
+kick_direction: [1.0, 0.0]
+kick_direction_mode: teammate
+kick_kind: bhuman_soft
+kick_speed: 0.4
+# 12 K1 leg joints, left then right. Radians, bounded residual on frozen walk.
+receiver_joint_residual_scale: [0.10, 0.06, 0.05, 0.14, 0.12, 0.06, 0.10, 0.06, 0.05, 0.14, 0.12, 0.06]
+action_mask: [0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+action_limit: 0.6
+rounds: 30
+initial_episodes: 64
+episodes_per_round: 16
+replay_episodes: 256
+validation_episodes: 16
+evaluation_episodes: 20
+eval_interval: 5
+wm_hidden: 256
+actor_hidden: 128
+wm_updates: 100
+batch_size: 128
+wm_lr: 0.0002
+actor_lr: 0.0001
+critic_lr: 0.0002
+actor_updates: 8
+imagination_batch: 64
+horizon: 32
+gamma: 0.99
+lambda: 0.95
+critic_epochs: 3
+exploration_std: 0.15
