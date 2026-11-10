@@ -23,6 +23,8 @@
 
 恢复队列只继续剩余八组。并行环境2048、batch1024、micro128、WM2048、H32、优化器、奖励和每组512次更新均保持不变；每30分钟归档检查点。等显存上限改为每组12小时。操作说明见[恢复记录](../simulation/research/cooperative_handoff/experiments/00_control_consistency/recovery_20261111.md)和[显存门槛修订](../simulation/research/cooperative_handoff/experiments/00_control_consistency/memory_admission_20261111.md)。
 
+第二组下调门槛后已正常启动。截至02:04，日志已到iter145（至少4次追加更新），无容量溢出；本进程采样最高4,686 MiB，约4.58 GiB。该值包含Warp/CUDA，但不是完整训练的精确峰值。详见[显存实测快照](../results/2026-11-11-pilot-progress/recorded_resource_snapshot.json)。
+
 ## 已完成的前置验证
 
 - CPU回归8项通过；发送方/接收方控制器16环境×299步一致性通过。

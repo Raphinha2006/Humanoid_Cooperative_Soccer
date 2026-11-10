@@ -1,0 +1,21 @@
+{
+  "status": "running",
+  "job": "seed104_recorded",
+  "job_seconds": 151.72612799378112,
+  "process_gpu_mib": 4686,
+  "max_sampled_process_gpu_mib": 4686,
+  "memory_admission_mib": {
+    "held": 7168,
+    "recorded": 7168,
+    "closed_loop": 8704
+  },
+  "error": null,
+  "captured_beijing": "2026-11-11T02:04:49.900581+08:00",
+  "last_logged_stage": "train",
+  "last_logged_iteration": 145,
+  "training_capacity": {
+    "capacity_overflow_max": 0,
+    "solver_limit_world_fraction": 0.0
+  },
+  "scope": "Five-second sampling of this process only, not an exact all-time allocator peak."
+}
