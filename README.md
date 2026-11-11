@@ -37,6 +37,12 @@ flowchart LR
 
 先修复基线，再判断退化原因，最后加入协作机制。具体方案与相近工作见 [研究计划](docs/RESEARCH_PLAN.md) 和 [文献边界](simulation/research/cooperative_handoff/literature/survey.md)。
 
+## 接球评估与奖励设计调整
+
+早期分别观察有效触球、停球耗时、连续控球保持与姿态；停球耗时越短越好，连续保持越长越好。严格成功率继续作为完整任务验收之一。先受控来球，再扩大能力图，最后连续互传。
+
+[修订计划](docs/RESEARCH_PLAN.md)与[奖励验证](docs/REWARD_VALIDATION.md)已写入；新评估器和奖励尚未实现。当前九组维持原协议，第4组资源中断已归档重跑。[CPU奖励检查](results/2026-11-11-reward-contract/README.md)只是构造状态诊断，不能当作真实策略利用漏洞的证据。
+
 ## 快速开始：G1 GPU 原型
 
 验证环境：Linux、Python 3.11、NVIDIA GPU；MuJoCo/Warp 与依赖版本固定在 requirements 中。当前试验使用 2048 个环境、batch 1024、microbatch 128、WM 宽度 2048。GPU 检查需实际 CUDA 设备和下载的部署资源。

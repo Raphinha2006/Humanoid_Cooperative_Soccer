@@ -403,28 +403,28 @@
       "source_sha256": "0b214fea8630f678140820092b70a76db255b91bc7e120428b30403e744c336b"
     },
     "simulation/research/cooperative_handoff/README.md": {
-      "sha256": "d8ed7fff24fe67151ac2e8714a80bb33465e9028510401ac6a692f6812d985ab",
-      "source_sha256": "d8ed7fff24fe67151ac2e8714a80bb33465e9028510401ac6a692f6812d985ab"
+      "sha256": "bb3d7c6ef808ba9accefc78daf63c15276964a2fb6d33aab0b1eb3c5332e43e0",
+      "source_sha256": "bb3d7c6ef808ba9accefc78daf63c15276964a2fb6d33aab0b1eb3c5332e43e0"
     },
     "simulation/research/cooperative_handoff/experiments/00_control_consistency/protocol.md": {
       "sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824",
       "source_sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824"
     },
     "simulation/research/cooperative_handoff/findings.md": {
-      "sha256": "2e9b957d4690adadfcbf7b1b441b59f44dc72a1ddde879f94d22cb64ff96c298",
-      "source_sha256": "2e9b957d4690adadfcbf7b1b441b59f44dc72a1ddde879f94d22cb64ff96c298"
+      "sha256": "4d927ae1170bf271aadfbb4aa7ddc76f1a9fca5a4ea9b239d894d42a23874d36",
+      "source_sha256": "4d927ae1170bf271aadfbb4aa7ddc76f1a9fca5a4ea9b239d894d42a23874d36"
     },
     "simulation/research/cooperative_handoff/literature/survey.md": {
-      "sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2",
-      "source_sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2"
+      "sha256": "b56b03adaed30500bee97e617ff627eeec3b398fc1dbd8ccec905612a145d597",
+      "source_sha256": "b56b03adaed30500bee97e617ff627eeec3b398fc1dbd8ccec905612a145d597"
     },
     "simulation/research/cooperative_handoff/research-log.md": {
-      "sha256": "d876859f307cfbd84d6095b98d7cf888eb67609f654ba4dbe0854f8c43720266",
-      "source_sha256": "d876859f307cfbd84d6095b98d7cf888eb67609f654ba4dbe0854f8c43720266"
+      "sha256": "f5e32faefe6e13bad85f6d3e3add06d6ba064c2cfbea0336daf3c30b7bbd3203",
+      "source_sha256": "f5e32faefe6e13bad85f6d3e3add06d6ba064c2cfbea0336daf3c30b7bbd3203"
     },
     "simulation/research/cooperative_handoff/research-state.yaml": {
-      "sha256": "8b5872785896a479abd5af6f9df2318577e7b46ad9fb158ade87c613d6e86a0b",
-      "source_sha256": "cec29c8d78aaaf4cdf0468fe79ddff1af78a2b6fbd5c2ee038392256d422cc83"
+      "sha256": "8aaafbfa37b425e693272d58cd5e0110b723ec27e96218123da0fbf8e1e97f64",
+      "source_sha256": "274b57d8c7f932e210fe62883e21a1d79be99da954bb843468512296ee906652"
     },
     "simulation/tools/complete_cooperation_preflight.py": {
       "sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057",
@@ -445,6 +445,35 @@
     "simulation/research/cooperative_handoff/experiments/00_control_consistency/memory_admission_20261111.md": {
       "sha256": "1880f42c2fb4697c4b00b223741fe5292ce8c5849cc80ffa9c8e2b439b64d1fd",
       "source_sha256": "1880f42c2fb4697c4b00b223741fe5292ce8c5849cc80ffa9c8e2b439b64d1fd"
+    },
+    "simulation/research/cooperative_handoff/experiments/00_control_consistency/retry_20261111.md": {
+      "sha256": "071220f887b8b748182a00bb3fc91cf7f7890f567d42ed2e0eae1674fb562509",
+      "source_sha256": "071220f887b8b748182a00bb3fc91cf7f7890f567d42ed2e0eae1674fb562509"
+    },
+    "simulation/research/cooperative_handoff/experiments/01_reception_metrics_reward/protocol.md": {
+      "sha256": "18988aaeac80c199986bb96fafbb64cea6eaab9afafb0dc6d9e2da60bc6ae1a2",
+      "source_sha256": "18988aaeac80c199986bb96fafbb64cea6eaab9afafb0dc6d9e2da60bc6ae1a2"
+    },
+    "simulation/research/cooperative_handoff/experiments/01_reception_metrics_reward/design.yaml": {
+      "sha256": "03308a90adad3d003e76536b06d6c4145d2536bb4a5c0b2bf7076e4d5c6c1a4e",
+      "source_sha256": "03308a90adad3d003e76536b06d6c4145d2536bb4a5c0b2bf7076e4d5c6c1a4e"
+    },
+    "simulation/research/cooperative_handoff/experiments/01_reception_metrics_reward/reward_validation.md": {
+      "sha256": "7a45ddf13649a8d322cf2ac61301492c9d64ab0df6216069aa2347a58225f52a",
+      "source_sha256": "7a45ddf13649a8d322cf2ac61301492c9d64ab0df6216069aa2347a58225f52a"
+    },
+    "simulation/research/cooperative_handoff/analysis/metric_audit_20261111.md": {
+      "sha256": "5a771bc7ec4fb58640e65fe38b29057535fbf838d9ee0079b4de6cdc690e9573",
+      "source_sha256": "5a771bc7ec4fb58640e65fe38b29057535fbf838d9ee0079b4de6cdc690e9573"
+    },
+    "simulation/research/cooperative_handoff/analysis/reward_contract_20261111.py": {
+      "sha256": "3c83b3fc98909e52ab68315af589182432dadb3c623ef8279be1201c0c2d5a3d",
+      "source_sha256": "3c83b3fc98909e52ab68315af589182432dadb3c623ef8279be1201c0c2d5a3d"
+    },
+    "simulation/research/cooperative_handoff/analysis/reward_contract_20261111.json": {
+      "sha256": "ffeb2826ac73384d67cc9b0a089a68130b67c964fc6cc68f78c6240b4fbd12b7",
+      "source_sha256": "ffeb2826ac73384d67cc9b0a089a68130b67c964fc6cc68f78c6240b4fbd12b7"
     }
-  }
+  },
+  "last_update": "2026-11-11"
 }

@@ -36,3 +36,11 @@ The reduced-fit smoke is followed by `tools/complete_cooperation_preflight.py`:
 three normal ten-WM-fit/H32 gates, then the original matched study. See the normal
 update gate supplement. All three normal gates passed before the first full arm.
 Public results and readable status: https://github.com/Raphinha2006/Humanoid_Cooperative_Soccer
+
+## Next phase: evaluation and reward validation
+
+See `experiments/01_reception_metrics_reward/protocol.md` and `design.yaml`.
+Stopping latency (lower is better) and continuous control duration (higher is
+better) are separate. Physical events, failure/censoring, replayable incoming-ball
+cases, counterexamples and short-budget reward tests precede new long training.
+The new evaluator/reward is not implemented; the original comparison is unchanged.

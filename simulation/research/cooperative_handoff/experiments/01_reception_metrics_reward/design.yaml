@@ -1,0 +1,87 @@
+version: reception_evaluation_v2_design_20261111
+status: design_only_not_implemented_or_calibrated
+scope: next_phase_only_current_pilot_unchanged
+control_dt_s: 0.02
+contact:
+  normal_force_threshold_n: 0.1
+  allowed_receiver_geoms: null # 先核验模型脚部名单
+  intended_body_parts: feet
+  moving_ball_diagnostic_min_speed_mps: 0.50
+  never_exclude_predefined_cases_by_policy_contact_outcome: true
+control_region:
+  frame: receiver_yaw_frame
+  forward_bounds_m: [0.03, 0.55]
+  lateral_abs_max_m: 0.30
+  ball_world_speed_max_mps: 0.50
+  ball_receiver_relative_speed_max_mps: 0.50
+  ball_center_height_max_m: 0.22
+  facing_tolerance_deg: 30.0
+  require_no_fall: true
+  fall_height_m: 0.50
+  fall_upright_cos_min: 0.764842187
+timing:
+  stable_entry_confirmation_s: 0.10
+  target_control_duration_s: 0.80
+  post_contact_observation_s: 2.0
+  release_to_contact_timeout_s: 4.0
+  contact_to_control_deadline_s: 1.0
+  bounded_completion_deadline_s: 6.10
+  contact_speed_offsets_s: [0.10, 0.30]
+  failure_time_value: null
+  report_failure_counts_and_denominators: true
+cases:
+  grid_status: engineering_initial_values_calibrate_before_training
+  base_physics_config: configs/supermimic_g1_receive.yaml
+  release_frame: receiver_initial_yaw_frame
+  release_distance_m: null
+  release_ball_center_height_m: null
+  release_ball_spin_rad_s: [0.0, 0.0, 0.0]
+  upstream_measurement_plane_m: null
+  receiver_pose_jitter_config: null
+  release_speed_grid_mps: [0.75, 1.0, 1.5, 2.0, 3.0]
+  lateral_target_grid_m: [-0.30, -0.15, 0.0, 0.15, 0.30]
+  primary_strata: predetermined_case_ids_not_policy_dependent_contact_bins
+  development_cases_per_cell: 16
+  confirmation_cases_per_cell: 64
+  case_hash_manifest: null
+  final_case_hash_manifest: null
+curriculum:
+  promotion_control_attainment_rate: 0.70
+  promotion_consecutive_evaluations: 3
+  evaluation_keeps_full_frozen_grid: true
+training_pilot:
+  num_envs: 2048
+  batch: 1024
+  micro: 128
+  collection_rounds_per_arm: 64
+  steps_per_round: 32
+  new_real_transitions_per_arm: 4194304
+  warmup_counted_separately: true
+  checkpoint_seconds: 1800
+  evaluation_rounds: 32
+  long_run_training_seeds: [104, 105, 106]
+checkpoint_selection:
+  status: candidate_rule_freeze_before_next_training
+  max_fall_fraction: 0.01
+  primary: stable_control_attainment_rate_on_all_cases
+  tie_breakers: [bounded_release_to_control_time_lower, mean_max_control_duration_higher, earlier_iteration]
+  rate_tie_tolerance: null
+reward:
+  status: candidate_terms_only_not_implemented
+  version: null
+  one_time_control_event_weight: null
+  one_time_handoff_event_weight: null
+  progress_potential_weight: null
+  action_regularization_weight: null
+  phase_time_cost_weight: null
+  max_positive_return_per_phase: null
+  gamma: 0.99
+  terminal_potential: 0.0
+  require_counterexample_checks: true
+  require_independent_physical_acceptance: true
+sensitivity:
+  capture_speed_multipliers: [0.8, 1.0, 1.2]
+  target_hold_durations_s: [0.6, 0.8, 1.0]
+  region_size_multipliers: [0.8, 1.0, 1.2]
+  nonzero_reward_weight_multipliers: [0.5, 1.0, 2.0]
+  interpretation: one_factor_at_a_time_do_not_select_best_threshold_after_results

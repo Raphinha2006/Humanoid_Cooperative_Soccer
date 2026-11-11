@@ -75,3 +75,26 @@ development rates: held4.69%, recorded2.54%, closed_loop0.39%; no stable gain ov
 the common start. Only one continuation seed is complete. The queue has started
 seed105_recorded with no new OOM/capacity failures. Sampled process peaks were
 4706MiB recorded and7062MiB closed_loop; settings/budgets remain unchanged.
+
+## 2026-11-11 — reception metric audit
+
+Following the user’s concern about a sparse, difficult acceptance metric, summarized the existing seed104 development logs without new simulation. All three arms also lost mean maximum continuous capture time. Strict acceptance alone hides intermediate abilities, but the evidence does not support dismissing all degradation as sampling noise. Published a supplementary analysis and proposed controlled incoming-ball strata, contact-aligned continuous metrics and capability maps for a future pre-registered protocol. Current nine-arm budgets, selection and heldout isolation remain unchanged.
+
+## 2026-11-11 — evaluation/reward plan revised and GPU queue recovered
+
+The user approved revising the plan and requested reward/task validity checks,
+then authorised additional GPU1 work. Added a next-phase protocol, configurable
+engineering design values, four-layer metrics, separate stopping latency and
+control persistence, failures/censoring, fixed post-contact windows, capability
+grids, counterexample ranking, bounded event rewards and short-budget gates.
+No new reward/evaluator is yet active. Three primary reward-design papers were
+read and referenced; mathematical shaping invariance is not task correctness.
+
+The fourth original arm failed at 2026-11-11T09:36:58.853970+08:00 after
+iteration230; latest checkpoint228 lacks replay. Preserved the entire interrupted
+attempt and logs with a receipt, then restarted that arm from common iteration141
+under the committed clean-retry record. Remaining six original-budget arms are
+serially queued; original source/config hashes are unchanged. Snapshot 2026-11-11 10:16
+CST confirms running seed105_recorded, last logged iteration155.
+CPU-only constructed reward probes completed without using GPU1; they are algebraic
+diagnostics and do not replace physical rollout validation. Independent test unused.

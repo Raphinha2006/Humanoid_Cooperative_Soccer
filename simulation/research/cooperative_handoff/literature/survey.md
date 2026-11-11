@@ -14,3 +14,9 @@
 
 Sources were inspected during project design. A candidate gap is a research
 hypothesis, not a claim that all other literature has excluded this direction.
+
+## Reward design checks added 2026-11-11
+
+- Ng, Harada and Russell (ICML1999), [Policy invariance under reward transformations](https://people.eecs.berkeley.edu/~russell/papers/icml99-shaping.pdf). Potential differences preserve optimal policies under the relevant MDP assumptions. This does not validate the base task objective, approximate WM, or optimisation.
+- Pan, Bhatia and Steinhardt (ICLR2022), [The Effects of Reward Misspecification](https://arxiv.org/abs/2201.03544). Stronger/longer optimisation can increase proxy reward while reducing true outcomes. Motivation for independent event metrics; not a causal diagnosis of our run.
+- Muslimani et al. (2025), [Towards Improving Reward Design in RL](https://arxiv.org/abs/2503.05996). Trajectory-distribution rankings help assess reward alignment. Motivation for a fixed trajectory preference audit; no independent human study has been conducted in this project.

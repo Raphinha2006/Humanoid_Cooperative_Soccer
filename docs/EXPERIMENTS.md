@@ -51,3 +51,7 @@ CUDA_VISIBLE_DEVICES=0 .venv-g1/bin/python -m soccer_sim.gpu_receive.audit \
 - 开发集用于分析；seed240000/1024 预留最终验收，当前开发过程不使用。
 
 完整条件以[预注册协议](../simulation/research/cooperative_handoff/experiments/00_control_consistency/protocol.md)为准。
+
+## 下一阶段：尚未接入执行
+
+[接球指标与奖励协议](../simulation/research/cooperative_handoff/experiments/01_reception_metrics_reward/protocol.md)及design.yaml目前是设计草案，不是训练CLI参数；需先实现评估器、可重放来球与奖励反例检查。短试验保持2048环境/batch1024/micro128，64轮×32采样步，warmup另计。原九组训练不在中途切换奖励。

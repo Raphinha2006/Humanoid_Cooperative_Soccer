@@ -63,3 +63,18 @@ The closed-loop controller's truth-state conformance does not guarantee useful
 imagined-state policy gradients. Higher simulator return or lower own-trajectory
 position RMSE does not establish higher strict success. Treatment-wide ranking
 and causal attribution require the remaining continuation seeds and interventions.
+
+# 2026-11-11 metric semantics and reward validation plan
+
+Maximum continuous control duration is a persistence measure (higher is better),
+not time to stop an incoming ball (lower is better). Its decline cannot alone
+identify poorer deceleration or a low-level control cause: contact, position,
+facing and continuity are confounded in the current conjunction. Split them.
+
+Constructed CPU-only state probes assign instantaneous reward1.0 to stationary
+body-front states with or without contact history, and to a receiver facing away
+when the ball remains at its body-relative target. These expose missing reward
+distinctions, not physically demonstrated exploitation or a causal explanation.
+Next steps are event-aligned measurement, reproducible reception feasibility,
+physical counterexample trajectories, then short-budget reward comparisons before
+world-model/cooperation expansion. The new evaluator/reward is not implemented.

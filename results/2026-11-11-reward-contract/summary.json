@@ -1,0 +1,49 @@
+{
+  "scope": "Constructed-state algebraic diagnostics only; no simulation or trained-policy evaluation",
+  "reward_module_sha256": "88169d27537242058218af190f338f04e56ddb49a2aaa6575cf4d8e66f1042de",
+  "device": "cpu",
+  "probes": [
+    {
+      "name": "front_stationary_contact_history",
+      "instantaneous_reward": 1.0,
+      "ball_receiver_frame": [
+        0.3499999940395355,
+        0.0,
+        -0.6399999856948853
+      ]
+    },
+    {
+      "name": "same_state_no_contact_history",
+      "instantaneous_reward": 1.0,
+      "ball_receiver_frame": [
+        0.3499999940395355,
+        0.0,
+        -0.6399999856948853
+      ]
+    },
+    {
+      "name": "facing_away_stationary_body_front",
+      "instantaneous_reward": 1.0,
+      "ball_receiver_frame": [
+        0.3499999940395355,
+        0.0,
+        -0.6399999856948853
+      ]
+    },
+    {
+      "name": "front_incoming_1mps",
+      "instantaneous_reward": 0.21465250849723816,
+      "ball_receiver_frame": [
+        0.3499999940395355,
+        0.0,
+        -0.6399999856948853
+      ]
+    }
+  ],
+  "interpretation": [
+    "Contact history is not an input: identical physical states with different histories receive equal reward.",
+    "Facing away can receive the same reward when the ball is at the receiver-relative target.",
+    "These probes expose missing task distinctions, not evidence of physical feasibility or actual policy exploitation.",
+    "Compare complete discounted real trajectories before selecting new reward weights."
+  ]
+}

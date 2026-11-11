@@ -1,0 +1,12 @@
+{
+  "reason": "runtime GPU allocation failure; clean full-budget retry from common start",
+  "last_logged_iteration": 230,
+  "last_logged_transitions": 27385856,
+  "latest_checkpoint_iteration": 228,
+  "latest_checkpoint_sha256": "186079dc27f6ff9a35770e64dee1cc1c570cb7c7df56050e2a71c46faefd422d",
+  "replay_saved": false,
+  "excluded_from_matched_comparison": true,
+  "failed_status": "seed105_recorded failed (1)",
+  "failure_beijing": "2026-11-11T09:36:58.853970+08:00",
+  "retry_label": "recovery_retry_20261111"
+}

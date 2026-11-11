@@ -21,8 +21,15 @@ heldout:
   reserved_n: 1024
   use_during_development: false
 next:
-  - Complete the remaining six arms; seed104 all three arms completed without stable gain.
-  - Add action-effect interventions before interpreting WM accuracy as control utility.
+  - Complete the clean retry of seed105_recorded and remaining five matched arms.
+  - Implement contact-aligned evaluation with stopping latency and control persistence.
+  - Verify task feasibility and physical reward counterexamples before new reward training.
+  - Run short-budget reward comparisons, then WM action-effect interventions.
+next_experiment: experiments/01_reception_metrics_reward/protocol.md
+next_experiment_status: planned_not_implemented
+metric_semantics:
+  stopping_latency: lower_is_better_report_failures_and_censoring
+  continuous_control_duration: higher_is_better_fixed_post_contact_window
 checks:
   cpu_regressions: 8_passed
   controller_conformance:
@@ -39,5 +46,15 @@ publication:
 normal_update_gates: all_three_passed
 completed_training_arms: [seed104_held, seed104_recorded, seed104_closed_loop]
 current_training_arm: seed105_recorded
-current_status_file: recovery_adaptive_20261111.status.json
+current_status_file: recovery_retry_20261111.status.json
 memory_admission_mib: {held: 7168, recorded: 7168, closed_loop: 8704}
+
+interrupted_attempts:
+  - arm: seed105_recorded
+    reason: runtime_gpu_allocation_failure
+    last_logged_iteration: 230
+    latest_checkpoint_iteration: 228
+    replay_saved: false
+    action: archived_separately_clean_retry_from_common_start
+    included_in_matched_comparison: false
+next_reward_status: design_only_not_active

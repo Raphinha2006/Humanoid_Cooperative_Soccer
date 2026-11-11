@@ -1,0 +1,22 @@
+{
+  "status": "running",
+  "job": "seed105_recorded",
+  "job_seconds": 328.6495270682499,
+  "gpu_status": {
+    "free_mib": 7909,
+    "used_mib": 16173,
+    "utilization_percent": 100
+  },
+  "process_gpu_mib": 4686,
+  "max_sampled_process_gpu_mib": 4686,
+  "error": null,
+  "heartbeat_epoch": 1794363410.8909132,
+  "captured_beijing": "2026-11-11T10:16:53.180060+08:00",
+  "completed_runs": [
+    "seed104_held",
+    "seed104_recorded",
+    "seed104_closed_loop"
+  ],
+  "latest_logged_iteration": 155,
+  "latest_logged_stage": "train"
+}
