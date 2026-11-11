@@ -1,5 +1,5 @@
 project: cooperative_humanoid_handoff
-status: running_matched_continuation_pilot
+status: waiting_for_gpu_memory_after_interruption
 updated: '2026-11-11'
 stage: 00_control_consistency
 server: <project-root>
@@ -21,7 +21,7 @@ heldout:
   reserved_n: 1024
   use_during_development: false
 next:
-  - Complete seed105_closed_loop and the remaining four matched arms.
+  - Wait for memory admission; clean retry seed105_closed_loop then the remaining four arms.
   - Implement contact-aligned evaluation with stopping latency and control persistence.
   - Verify task feasibility and physical reward counterexamples before new reward training.
   - Run short-budget reward comparisons, then WM action-effect interventions.
@@ -46,7 +46,7 @@ publication:
 normal_update_gates: all_three_passed
 completed_training_arms: [seed104_held, seed104_recorded, seed104_closed_loop, seed105_recorded]
 current_training_arm: seed105_closed_loop
-current_status_file: recovery_retry_20261111.status.json
+current_status_file: recovery_closedretry_20261111.status.json
 memory_admission_mib: {held: 7168, recorded: 7168, closed_loop: 8704}
 
 interrupted_attempts:
@@ -56,5 +56,13 @@ interrupted_attempts:
     latest_checkpoint_iteration: 228
     replay_saved: false
     action: archived_separately_clean_retry_from_common_start
+    included_in_matched_comparison: false
+  - arm: seed105_closed_loop
+    reason: runtime_gpu_allocation_failure
+    failure_beijing: '2026-11-11T14:50:38+08:00'
+    last_logged_iteration: 440
+    latest_checkpoint_iteration: 441
+    replay_saved: false
+    action: archived_separately_waiting_to_retry_from_common_start
     included_in_matched_comparison: false
 next_reward_status: design_only_not_active

@@ -109,3 +109,15 @@ Two recorded continuations now show late degradation; no overall method ranking
 is established. Original-reward seed105_closed_loop is running as arm5/9, without
 a post-training evaluation yet at this snapshot. V2 evaluator/reward not active.
 Published raw results and raw two-seed curves, with no heldout use or source changes.
+
+## 2026-11-11 17:23 Asia/Shanghai — fifth arm interrupted; waiting recovery
+
+Inspection found seed105_closed_loop failed at14:50:38 on a427,032,576-byte Warp
+allocation during collision detection. Last logged iteration440, latest checkpoint441,
+no final; only4/9 arms complete. Last development eval429 gives strict0.59%,
+legacy mean max persistence0.165s, versus start4.88%/0.289s. No stable improvement
+established, no terminal ranking from a censored run. All partial outputs were
+archived under a committed recovery record; checkpoint lacks replay. A new
+supervisor waits for8.5GiB free onGPU1 before a clean common-start retry, then
+the remaining four arms. No training child at the snapshot; configuration and
+source fingerprints unchanged. New evaluator/reward not active; final heldout unused.

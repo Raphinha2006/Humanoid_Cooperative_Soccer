@@ -87,3 +87,11 @@ ordered contact remains58.59% and corrected return39.66→38.94. This strengthen
 the need to distinguish reward and task metrics; it does not establish reward
 misspecification as the sole cause, nor establish poorer stopping latency. The
 other treatments lack completed multi-seed comparisons.
+
+# 2026-11-11 fifth arm interrupted
+
+seed105_closed_loop failed from runtime allocation pressure before its512-update
+budget. Its latest development eval is strict0.59%, mean max legacy control0.165s
+versus4.88%/0.289s initially, but this is an interrupted trajectory, not a final
+matched-budget result. No improvement is established; causal attribution remains
+open. Keep interruption separate and avoid claiming idle/resource waiting is training.

@@ -1,0 +1,27 @@
+{
+  "status": "waiting_for_memory",
+  "job": "seed105_closed_loop",
+  "gpu_status": {
+    "free_mib": 4953,
+    "used_mib": 19129,
+    "utilization_percent": 99
+  },
+  "memory_admission_mib": {
+    "held": 7168,
+    "recorded": 7168,
+    "closed_loop": 8704
+  },
+  "memory_wait_hours": 12.0,
+  "wait_deadline_epoch": 1794432198.6170068,
+  "error": null,
+  "captured_beijing": "2026-11-11T17:23:47.055903+08:00",
+  "completed_runs": [
+    "seed104_held",
+    "seed104_recorded",
+    "seed104_closed_loop",
+    "seed105_recorded"
+  ],
+  "heartbeat_age_s": 8.35311508178711,
+  "supervisor_alive": true,
+  "child_running": false
+}

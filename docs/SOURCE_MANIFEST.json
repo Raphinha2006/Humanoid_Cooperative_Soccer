@@ -411,20 +411,20 @@
       "source_sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824"
     },
     "simulation/research/cooperative_handoff/findings.md": {
-      "sha256": "eaabe373dd10e1dc77911cd220b2a33e7e5e42144278cd2c3621a95a1431cc39",
-      "source_sha256": "eaabe373dd10e1dc77911cd220b2a33e7e5e42144278cd2c3621a95a1431cc39"
+      "sha256": "4d33d9d3f6ea59938979733bcfa49b2f2883bf9359440f62980f302b766e6fff",
+      "source_sha256": "4d33d9d3f6ea59938979733bcfa49b2f2883bf9359440f62980f302b766e6fff"
     },
     "simulation/research/cooperative_handoff/literature/survey.md": {
       "sha256": "b56b03adaed30500bee97e617ff627eeec3b398fc1dbd8ccec905612a145d597",
       "source_sha256": "b56b03adaed30500bee97e617ff627eeec3b398fc1dbd8ccec905612a145d597"
     },
     "simulation/research/cooperative_handoff/research-log.md": {
-      "sha256": "f71923083c2e0d4cba837850589c73f643c35bfb6d7ef6c84e4a7db27c84a863",
-      "source_sha256": "f71923083c2e0d4cba837850589c73f643c35bfb6d7ef6c84e4a7db27c84a863"
+      "sha256": "2f45332f2a8ce8f5cd04428170fe89a739f4b8dd1e565162ab27c7dbeaaadd0c",
+      "source_sha256": "2f45332f2a8ce8f5cd04428170fe89a739f4b8dd1e565162ab27c7dbeaaadd0c"
     },
     "simulation/research/cooperative_handoff/research-state.yaml": {
-      "sha256": "bd4e46ba59008358c0fa484dad410f8ae35ff974212999f5df3b1f8bf6e6119a",
-      "source_sha256": "5f50054c63b3e2280e05e2c52870a1d312062f64c954c1b5b69929fa59e7e14c"
+      "sha256": "7022ccfc4de9dc6d9a4fc174af41bffeee31bfb0bf56d948df9ddad71fb4f1fe",
+      "source_sha256": "f6c19218aedb31caf199bf4cd1487b3303292a8e99947b2382c7c9b2058b76bd"
     },
     "simulation/tools/complete_cooperation_preflight.py": {
       "sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057",
@@ -473,6 +473,10 @@
     "simulation/research/cooperative_handoff/analysis/reward_contract_20261111.json": {
       "sha256": "ffeb2826ac73384d67cc9b0a089a68130b67c964fc6cc68f78c6240b4fbd12b7",
       "source_sha256": "ffeb2826ac73384d67cc9b0a089a68130b67c964fc6cc68f78c6240b4fbd12b7"
+    },
+    "simulation/research/cooperative_handoff/experiments/00_control_consistency/closed_loop_retry_20261111.md": {
+      "sha256": "bc6ff216d0794920d32635fe92eece2d9fd52439784120c214c3b7da5bf474dd",
+      "source_sha256": "bc6ff216d0794920d32635fe92eece2d9fd52439784120c214c3b7da5bf474dd"
     }
   },
   "last_update": "2026-11-11"

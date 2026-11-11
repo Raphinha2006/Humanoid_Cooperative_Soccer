@@ -1,0 +1,2187 @@
+{
+  "captured_beijing": "2026-11-11T17:22:17.491819+08:00",
+  "scope": "Interrupted fifth arm, original-reward development diagnostics only; not a completed matched-budget run",
+  "run": "seed105_closed_loop",
+  "settings": {
+    "num_envs": 2048,
+    "eval_num_envs": 512,
+    "batch": 1024,
+    "micro": 128,
+    "wm_width": 2048,
+    "njmax": 1024,
+    "sender_control": "closed_loop",
+    "controller_kinematics": "current",
+    "seed": 105,
+    "new_updates": 512,
+    "matched_imagination_starts": true,
+    "fresh_training_rng": true
+  },
+  "metrics": [
+    {
+      "stage": "baseline",
+      "evaluation": {
+        "front_pass_success": 0.013671875,
+        "captured": 0.19921875,
+        "fallen": 0.0,
+        "ordered_contact": 0.578125,
+        "handoff_at_end": 0.423828125,
+        "max_hold_mean": 0.3231249153614044,
+        "mean_hold": 0.03160155564546585,
+        "final_distance": 0.6254045963287354,
+        "final_speed": 0.0006662357482127845,
+        "return_mean": 41.26942192792529,
+        "legacy_return_mean": 41.26942192792529,
+        "residual_rms_rad": 0.0,
+        "residual_saturation_fraction": 0.0,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.670790672302246,
+      "torch_reserved_gib": 2.734375,
+      "device_free_gib": 7.621337890625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 23.61691650794819,
+      "iteration": 141,
+      "transitions": 20938752,
+      "training_tick": 0,
+      "training_reset_seed": 104,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 0,
+        "kick": 0,
+        "post_kick": 0
+      },
+      "completed_onpolicy_world_episodes": 0
+    },
+    {
+      "stage": "resume_evaluation",
+      "evaluation": {
+        "front_pass_success": 0.048828125,
+        "captured": 0.125,
+        "fallen": 0.0,
+        "ordered_contact": 0.58203125,
+        "handoff_at_end": 0.439453125,
+        "max_hold_mean": 0.2887108623981476,
+        "mean_hold": 0.08183591067790985,
+        "final_distance": 0.6091541051864624,
+        "final_speed": 0.0007104751421138644,
+        "return_mean": 39.507170962926466,
+        "legacy_return_mean": 39.517166390578495,
+        "residual_rms_rad": 0.030823566019535065,
+        "residual_saturation_fraction": 0.0,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.004779164679348469,
+        "receiver_root_rmse_5": 0.0053756688721477985,
+        "ball_rmse_25": 0.08315198123455048,
+        "receiver_root_rmse_25": 0.04409105330705643,
+        "ball_rmse_50": 0.27294522523880005,
+        "receiver_root_rmse_50": 0.12377068400382996
+      },
+      "torch_allocated_gib": 2.670790672302246,
+      "torch_reserved_gib": 2.740234375,
+      "device_free_gib": 7.615478515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 46.1266761161387,
+      "iteration": 141,
+      "transitions": 20938752,
+      "training_tick": 0,
+      "training_reset_seed": 104,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 0,
+        "kick": 0,
+        "post_kick": 0
+      },
+      "completed_onpolicy_world_episodes": 0
+    },
+    {
+      "stage": "warmup",
+      "memory_gb": 2.881854464,
+      "torch_allocated_gib": 2.68393611907959,
+      "torch_reserved_gib": 2.759765625,
+      "device_free_gib": 6.869384765625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 77.0043004588224,
+      "iteration": 141,
+      "transitions": 21553152,
+      "training_tick": 300,
+      "training_reset_seed": 105,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 0,
+        "kick": 0,
+        "post_kick": 0
+      },
+      "completed_onpolicy_world_episodes": 0
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.26132089644670486,
+      "objective": 8.123653888702393,
+      "actor_grad_norm": 2.388928174972534,
+      "memory_gb": 3.371014656,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7329015731811523,
+      "torch_reserved_gib": 3.5234375,
+      "device_free_gib": 6.275634765625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 183.50633576186374,
+      "iteration": 145,
+      "transitions": 21815296,
+      "training_tick": 128,
+      "training_reset_seed": 247,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 49152,
+        "kick": 212992,
+        "post_kick": 0
+      },
+      "completed_onpolicy_world_episodes": 0
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.31918261349201205,
+      "objective": 11.607210278511047,
+      "actor_grad_norm": 1.6425578594207764,
+      "memory_gb": 3.382630912,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743170738220215,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.260009765625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 311.573540717829,
+      "iteration": 150,
+      "transitions": 22142976,
+      "training_tick": 288,
+      "training_reset_seed": 247,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 49152,
+        "kick": 235520,
+        "post_kick": 305152
+      },
+      "completed_onpolicy_world_episodes": 0
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3183014065027237,
+      "objective": 9.262689352035522,
+      "actor_grad_norm": 3.143794536590576,
+      "memory_gb": 3.382630912,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.00048828125
+      },
+      "torch_allocated_gib": 2.738226890563965,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.254150390625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 439.6129897139035,
+      "iteration": 155,
+      "transitions": 22470656,
+      "training_tick": 148,
+      "training_reset_seed": 256,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 98304,
+        "kick": 471040,
+        "post_kick": 348160
+      },
+      "completed_onpolicy_world_episodes": 2048
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3289304405450821,
+      "objective": 17.036705493927002,
+      "actor_grad_norm": 2.952230453491211,
+      "memory_gb": 3.382630912,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.74002742767334,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.254150390625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 559.8942981120199,
+      "iteration": 160,
+      "transitions": 22798336,
+      "training_tick": 8,
+      "training_reset_seed": 265,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 114688,
+        "kick": 471040,
+        "post_kick": 659456
+      },
+      "completed_onpolicy_world_episodes": 4096
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.37790882885456084,
+      "objective": 14.316570162773132,
+      "actor_grad_norm": 3.843273878097534,
+      "memory_gb": 3.382630912,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.737318992614746,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 5.812744140625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 683.7824601759203,
+      "iteration": 165,
+      "transitions": 23126016,
+      "training_tick": 168,
+      "training_reset_seed": 265,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 147456,
+        "kick": 706560,
+        "post_kick": 718848
+      },
+      "completed_onpolicy_world_episodes": 4096
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.315143010020256,
+      "objective": 17.52837347984314,
+      "actor_grad_norm": 5.411921977996826,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.742781639099121,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 5.812744140625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 818.8579923450015,
+      "iteration": 170,
+      "transitions": 23453696,
+      "training_tick": 28,
+      "training_reset_seed": 275,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 196608,
+        "kick": 714752,
+        "post_kick": 989184
+      },
+      "completed_onpolicy_world_episodes": 6144
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.0,
+        "captured": 0.021484375,
+        "fallen": 0.0,
+        "ordered_contact": 0.6015625,
+        "handoff_at_end": 0.494140625,
+        "max_hold_mean": 0.1632421612739563,
+        "mean_hold": 0.001679687760770321,
+        "final_distance": 0.6592543721199036,
+        "final_speed": 0.0005793148884549737,
+        "return_mean": 28.12803943757899,
+        "legacy_return_mean": 28.149667815538123,
+        "residual_rms_rad": 0.07500255107879639,
+        "residual_saturation_fraction": 0.04040690138936043,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.0026969043537974358,
+        "receiver_root_rmse_5": 0.008437814190983772,
+        "ball_rmse_25": 0.0835423618555069,
+        "receiver_root_rmse_25": 0.03710966557264328,
+        "ball_rmse_50": 0.18298007547855377,
+        "receiver_root_rmse_50": 0.08659753948450089
+      },
+      "torch_allocated_gib": 2.7379064559936523,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 5.812744140625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 915.864696119912,
+      "iteration": 173,
+      "transitions": 23650304,
+      "training_tick": 124,
+      "training_reset_seed": 275,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 196608,
+        "kick": 911360,
+        "post_kick": 989184
+      },
+      "completed_onpolicy_world_episodes": 6144
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3886257618665695,
+      "objective": 8.614294230937958,
+      "actor_grad_norm": 7.649899482727051,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.737799644470215,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.258056640625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 976.1022205199115,
+      "iteration": 175,
+      "transitions": 23781376,
+      "training_tick": 188,
+      "training_reset_seed": 275,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 196608,
+        "kick": 942080,
+        "post_kick": 1089536
+      },
+      "completed_onpolicy_world_episodes": 6144
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2469477877020836,
+      "objective": 13.61379337310791,
+      "actor_grad_norm": 5.0602006912231445,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.74350643157959,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.258056640625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1091.9829327049665,
+      "iteration": 180,
+      "transitions": 24109056,
+      "training_tick": 48,
+      "training_reset_seed": 284,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 245760,
+        "kick": 991232,
+        "post_kick": 1318912
+      },
+      "completed_onpolicy_world_episodes": 8192
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.4032538801431656,
+      "objective": 14.562617659568787,
+      "actor_grad_norm": 3.8248291015625,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7379369735717773,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.068603515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1226.8691198481247,
+      "iteration": 185,
+      "transitions": 24436736,
+      "training_tick": 208,
+      "training_reset_seed": 284,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 245760,
+        "kick": 1177600,
+        "post_kick": 1460224
+      },
+      "completed_onpolicy_world_episodes": 8192
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.4182287365198135,
+      "objective": 16.34879958629608,
+      "actor_grad_norm": 5.918580055236816,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.74246883392334,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.068603515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1348.1051089968532,
+      "iteration": 190,
+      "transitions": 24764416,
+      "training_tick": 68,
+      "training_reset_seed": 293,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 294912,
+        "kick": 1267712,
+        "post_kick": 1648640
+      },
+      "completed_onpolicy_world_episodes": 10240
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.36729555428028104,
+      "objective": 10.01149845123291,
+      "actor_grad_norm": 3.288233757019043,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.737311363220215,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 4.99310302734375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1479.0119152460247,
+      "iteration": 195,
+      "transitions": 25092096,
+      "training_tick": 228,
+      "training_reset_seed": 293,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 294912,
+        "kick": 1413120,
+        "post_kick": 1830912
+      },
+      "completed_onpolicy_world_episodes": 10240
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.35227089524269106,
+      "objective": 14.033828496932983,
+      "actor_grad_norm": 3.65108323097229,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7426443099975586,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 4.99310302734375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1608.1386799411848,
+      "iteration": 200,
+      "transitions": 25419776,
+      "training_tick": 88,
+      "training_reset_seed": 303,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 344064,
+        "kick": 1544192,
+        "post_kick": 1978368
+      },
+      "completed_onpolicy_world_episodes": 12288
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3333417892456055,
+      "objective": 12.726524353027344,
+      "actor_grad_norm": 3.931974411010742,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.738448143005371,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.037353515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1738.0693628117442,
+      "iteration": 205,
+      "transitions": 25747456,
+      "training_tick": 248,
+      "training_reset_seed": 303,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 344064,
+        "kick": 1648640,
+        "post_kick": 2201600
+      },
+      "completed_onpolicy_world_episodes": 12288
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.005859375,
+        "captured": 0.087890625,
+        "fallen": 0.0,
+        "ordered_contact": 0.6328125,
+        "handoff_at_end": 0.498046875,
+        "max_hold_mean": 0.268984317779541,
+        "mean_hold": 0.016679683700203896,
+        "final_distance": 0.6458390951156616,
+        "final_speed": 0.00043433840619400144,
+        "return_mean": 32.5145985505078,
+        "legacy_return_mean": 32.55123352399096,
+        "residual_rms_rad": 0.06931295990943909,
+        "residual_saturation_fraction": 0.019951704889535904,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.003011525608599186,
+        "receiver_root_rmse_5": 0.0053129191510379314,
+        "ball_rmse_25": 0.11563991755247116,
+        "receiver_root_rmse_25": 0.039973773062229156,
+        "ball_rmse_50": 0.34831732511520386,
+        "receiver_root_rmse_50": 0.10454604029655457
+      },
+      "torch_allocated_gib": 2.738448143005371,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.037353515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1766.1991233909503,
+      "iteration": 205,
+      "transitions": 25747456,
+      "training_tick": 248,
+      "training_reset_seed": 303,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 344064,
+        "kick": 1648640,
+        "post_kick": 2201600
+      },
+      "completed_onpolicy_world_episodes": 12288
+    },
+    {
+      "stage": "checkpoint",
+      "checkpoint": "checkpoint_001800s_iter_0000207.pt",
+      "scheduled_seconds": 1800,
+      "torch_allocated_gib": 2.7349767684936523,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.037353515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1814.2269256478176,
+      "iteration": 207,
+      "transitions": 25878528,
+      "training_tick": 12,
+      "training_reset_seed": 312,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 368640,
+        "kick": 1648640,
+        "post_kick": 2308096
+      },
+      "completed_onpolicy_world_episodes": 14336
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.27893161326646804,
+      "objective": 13.060946583747864,
+      "actor_grad_norm": 2.2535595893859863,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7424917221069336,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.037353515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 1890.74092671182,
+      "iteration": 210,
+      "transitions": 26075136,
+      "training_tick": 108,
+      "training_reset_seed": 312,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 393216,
+        "kick": 1820672,
+        "post_kick": 2308096
+      },
+      "completed_onpolicy_world_episodes": 14336
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.35119149684906004,
+      "objective": 15.554169178009033,
+      "actor_grad_norm": 0.9851635694503784,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.73752498626709,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.258056640625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2021.1878156638704,
+      "iteration": 215,
+      "transitions": 26402816,
+      "training_tick": 268,
+      "training_reset_seed": 312,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 393216,
+        "kick": 1884160,
+        "post_kick": 2572288
+      },
+      "completed_onpolicy_world_episodes": 14336
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2135269746184349,
+      "objective": 11.931185007095337,
+      "actor_grad_norm": 2.8581714630126953,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743788719177246,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.256103515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2147.0023993090726,
+      "iteration": 220,
+      "transitions": 26730496,
+      "training_tick": 128,
+      "training_reset_seed": 322,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 442368,
+        "kick": 2097152,
+        "post_kick": 2637824
+      },
+      "completed_onpolicy_world_episodes": 16384
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3183901846408844,
+      "objective": 12.70724868774414,
+      "actor_grad_norm": 2.9291326999664307,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.738348960876465,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.261962890625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2269.310566689819,
+      "iteration": 225,
+      "transitions": 27058176,
+      "training_tick": 288,
+      "training_reset_seed": 322,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 442368,
+        "kick": 2119680,
+        "post_kick": 2942976
+      },
+      "completed_onpolicy_world_episodes": 16384
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.27927401661872864,
+      "objective": 11.106191635131836,
+      "actor_grad_norm": 2.466715097427368,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.742934226989746,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.261962890625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2396.8409527349286,
+      "iteration": 230,
+      "transitions": 27385856,
+      "training_tick": 148,
+      "training_reset_seed": 331,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 491520,
+        "kick": 2355200,
+        "post_kick": 2985984
+      },
+      "completed_onpolicy_world_episodes": 18432
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2972011774778366,
+      "objective": 17.34933090209961,
+      "actor_grad_norm": 2.2595794200897217,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.735663414001465,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.224853515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2523.189364735037,
+      "iteration": 235,
+      "transitions": 27713536,
+      "training_tick": 8,
+      "training_reset_seed": 340,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 507904,
+        "kick": 2355200,
+        "post_kick": 3297280
+      },
+      "completed_onpolicy_world_episodes": 20480
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.001953125,
+        "captured": 0.05859375,
+        "fallen": 0.0,
+        "ordered_contact": 0.568359375,
+        "handoff_at_end": 0.421875,
+        "max_hold_mean": 0.22730465233325958,
+        "mean_hold": 0.003984373528510332,
+        "final_distance": 0.6555598378181458,
+        "final_speed": 0.0005788032431155443,
+        "return_mean": 32.11846965528093,
+        "legacy_return_mean": 32.168576661497355,
+        "residual_rms_rad": 0.06547325849533081,
+        "residual_saturation_fraction": 0.0030387372244149446,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.00278349663130939,
+        "receiver_root_rmse_5": 0.0037561890203505754,
+        "ball_rmse_25": 0.08450603485107422,
+        "receiver_root_rmse_25": 0.03983301296830177,
+        "ball_rmse_50": 0.28097692131996155,
+        "receiver_root_rmse_50": 0.1595127433538437
+      },
+      "torch_allocated_gib": 2.7379446029663086,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.224853515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2595.488247472793,
+      "iteration": 237,
+      "transitions": 27844608,
+      "training_tick": 72,
+      "training_reset_seed": 340,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 540672,
+        "kick": 2453504,
+        "post_kick": 3297280
+      },
+      "completed_onpolicy_world_episodes": 20480
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.28202470391988754,
+      "objective": 12.503698348999023,
+      "actor_grad_norm": 2.63918399810791,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7426977157592773,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.224853515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2673.19627159182,
+      "iteration": 240,
+      "transitions": 28041216,
+      "training_tick": 168,
+      "training_reset_seed": 340,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 540672,
+        "kick": 2590720,
+        "post_kick": 3356672
+      },
+      "completed_onpolicy_world_episodes": 20480
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2125828221440315,
+      "objective": 16.742499589920044,
+      "actor_grad_norm": 2.333003520965576,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7384557723999023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 6.260009765625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2801.084961730987,
+      "iteration": 245,
+      "transitions": 28368896,
+      "training_tick": 28,
+      "training_reset_seed": 350,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 589824,
+        "kick": 2598912,
+        "post_kick": 3627008
+      },
+      "completed_onpolicy_world_episodes": 22528
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2750075101852417,
+      "objective": 12.697446703910828,
+      "actor_grad_norm": 3.438535690307617,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7429418563842773,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 4.8841552734375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 2925.019800521899,
+      "iteration": 250,
+      "transitions": 28696576,
+      "training_tick": 188,
+      "training_reset_seed": 350,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 589824,
+        "kick": 2826240,
+        "post_kick": 3727360
+      },
+      "completed_onpolicy_world_episodes": 22528
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.19156091511249543,
+      "objective": 17.23734188079834,
+      "actor_grad_norm": 3.110445022583008,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.739058494567871,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 4.3021240234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3071.188079502899,
+      "iteration": 255,
+      "transitions": 29024256,
+      "training_tick": 48,
+      "training_reset_seed": 359,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 638976,
+        "kick": 2875392,
+        "post_kick": 3956736
+      },
+      "completed_onpolicy_world_episodes": 24576
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.29715991020202637,
+      "objective": 9.811249375343323,
+      "actor_grad_norm": 3.9963936805725098,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7419729232788086,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5286865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3209.615023974795,
+      "iteration": 260,
+      "transitions": 29351936,
+      "training_tick": 208,
+      "training_reset_seed": 359,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 638976,
+        "kick": 3061760,
+        "post_kick": 4098048
+      },
+      "completed_onpolicy_world_episodes": 24576
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3089011818170547,
+      "objective": 12.683103680610657,
+      "actor_grad_norm": 4.9426188468933105,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7382421493530273,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5306396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3339.6544516049325,
+      "iteration": 265,
+      "transitions": 29679616,
+      "training_tick": 68,
+      "training_reset_seed": 368,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 688128,
+        "kick": 3151872,
+        "post_kick": 4286464
+      },
+      "completed_onpolicy_world_episodes": 26624
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.0,
+        "captured": 0.017578125,
+        "fallen": 0.0,
+        "ordered_contact": 0.5859375,
+        "handoff_at_end": 0.427734375,
+        "max_hold_mean": 0.12398435920476913,
+        "mean_hold": 0.0,
+        "final_distance": 0.6772693991661072,
+        "final_speed": 0.000621659797616303,
+        "return_mean": 22.683098821435124,
+        "legacy_return_mean": 22.749524377286434,
+        "residual_rms_rad": 0.08097512274980545,
+        "residual_saturation_fraction": 0.06515299528837204,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.0017277159495279193,
+        "receiver_root_rmse_5": 0.004022980108857155,
+        "ball_rmse_25": 0.05679582059383392,
+        "receiver_root_rmse_25": 0.02348862960934639,
+        "ball_rmse_50": 0.17907080054283142,
+        "receiver_root_rmse_50": 0.08367418497800827
+      },
+      "torch_allocated_gib": 2.738165855407715,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3802490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3474.968807816971,
+      "iteration": 269,
+      "transitions": 29941760,
+      "training_tick": 196,
+      "training_reset_seed": 368,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 688128,
+        "kick": 3297280,
+        "post_kick": 4403200
+      },
+      "completed_onpolicy_world_episodes": 26624
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2763035729527473,
+      "objective": 10.38374936580658,
+      "actor_grad_norm": 1.9831922054290771,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.00048828125
+      },
+      "torch_allocated_gib": 2.74411678314209,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3802490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3501.551337686833,
+      "iteration": 270,
+      "transitions": 30007296,
+      "training_tick": 228,
+      "training_reset_seed": 368,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 688128,
+        "kick": 3297280,
+        "post_kick": 4468736
+      },
+      "completed_onpolicy_world_episodes": 26624
+    },
+    {
+      "stage": "checkpoint",
+      "checkpoint": "checkpoint_003600s_iter_0000274.pt",
+      "scheduled_seconds": 3600,
+      "torch_allocated_gib": 2.73868465423584,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3802490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3616.5062910318375,
+      "iteration": 274,
+      "transitions": 30269440,
+      "training_tick": 56,
+      "training_reset_seed": 378,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 737280,
+        "kick": 3362816,
+        "post_kick": 4616192
+      },
+      "completed_onpolicy_world_episodes": 28672
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3213008061051369,
+      "objective": 13.009390592575073,
+      "actor_grad_norm": 4.017041206359863,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.73886775970459,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3802490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3645.122709203977,
+      "iteration": 275,
+      "transitions": 30334976,
+      "training_tick": 88,
+      "training_reset_seed": 378,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 737280,
+        "kick": 3428352,
+        "post_kick": 4616192
+      },
+      "completed_onpolicy_world_episodes": 28672
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3072064399719238,
+      "objective": 15.630143165588379,
+      "actor_grad_norm": 2.3101234436035156,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743697166442871,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3802490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3778.6524221128784,
+      "iteration": 280,
+      "transitions": 30662656,
+      "training_tick": 248,
+      "training_reset_seed": 378,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 737280,
+        "kick": 3532800,
+        "post_kick": 4839424
+      },
+      "completed_onpolicy_world_episodes": 28672
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2507116988301277,
+      "objective": 15.314021468162537,
+      "actor_grad_norm": 5.339738845825195,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.738165855407715,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5286865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 3911.4897701148875,
+      "iteration": 285,
+      "transitions": 30990336,
+      "training_tick": 108,
+      "training_reset_seed": 387,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 786432,
+        "kick": 3704832,
+        "post_kick": 4945920
+      },
+      "completed_onpolicy_world_episodes": 30720
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2540783122181892,
+      "objective": 10.857009053230286,
+      "actor_grad_norm": 2.764676809310913,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7424840927124023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4036865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4048.4147792798467,
+      "iteration": 290,
+      "transitions": 31318016,
+      "training_tick": 268,
+      "training_reset_seed": 387,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 786432,
+        "kick": 3768320,
+        "post_kick": 5210112
+      },
+      "completed_onpolicy_world_episodes": 30720
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2089572235941887,
+      "objective": 10.079476356506348,
+      "actor_grad_norm": 2.4543228149414062,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.738043785095215,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4017333984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4192.946977444924,
+      "iteration": 295,
+      "transitions": 31645696,
+      "training_tick": 128,
+      "training_reset_seed": 397,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 835584,
+        "kick": 3981312,
+        "post_kick": 5275648
+      },
+      "completed_onpolicy_world_episodes": 32768
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2849242269992828,
+      "objective": 13.748669624328613,
+      "actor_grad_norm": 2.06482195854187,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743842124938965,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4017333984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4337.700272704009,
+      "iteration": 300,
+      "transitions": 31973376,
+      "training_tick": 288,
+      "training_reset_seed": 397,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 835584,
+        "kick": 4003840,
+        "post_kick": 5580800
+      },
+      "completed_onpolicy_world_episodes": 32768
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.01171875,
+        "captured": 0.0234375,
+        "fallen": 0.0,
+        "ordered_contact": 0.548828125,
+        "handoff_at_end": 0.349609375,
+        "max_hold_mean": 0.10652342438697815,
+        "mean_hold": 0.01578124426305294,
+        "final_distance": 0.6338319778442383,
+        "final_speed": 0.0007108685676939785,
+        "return_mean": 27.94181036099326,
+        "legacy_return_mean": 28.03217529540416,
+        "residual_rms_rad": 0.07929380238056183,
+        "residual_saturation_fraction": 0.05065862089395523,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.0023092327173799276,
+        "receiver_root_rmse_5": 0.004260764457285404,
+        "ball_rmse_25": 0.042701348662376404,
+        "receiver_root_rmse_25": 0.0327291414141655,
+        "ball_rmse_50": 0.15206092596054077,
+        "receiver_root_rmse_50": 0.08885060995817184
+      },
+      "torch_allocated_gib": 2.7363576889038086,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5286865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4393.461301762145,
+      "iteration": 301,
+      "transitions": 32038912,
+      "training_tick": 20,
+      "training_reset_seed": 406,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 876544,
+        "kick": 4003840,
+        "post_kick": 5605376
+      },
+      "completed_onpolicy_world_episodes": 34816
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.24096282124519347,
+      "objective": 13.077468633651733,
+      "actor_grad_norm": 3.4613912105560303,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.739020347595215,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5286865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4513.603828807827,
+      "iteration": 305,
+      "transitions": 32301056,
+      "training_tick": 148,
+      "training_reset_seed": 406,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 884736,
+        "kick": 4239360,
+        "post_kick": 5623808
+      },
+      "completed_onpolicy_world_episodes": 34816
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2420700252056122,
+      "objective": 20.810386419296265,
+      "actor_grad_norm": 3.4455111026763916,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7398900985717773,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5267333984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4667.0185807901435,
+      "iteration": 310,
+      "transitions": 32628736,
+      "training_tick": 8,
+      "training_reset_seed": 415,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 901120,
+        "kick": 4239360,
+        "post_kick": 5935104
+      },
+      "completed_onpolicy_world_episodes": 36864
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2666746065020561,
+      "objective": 13.07731580734253,
+      "actor_grad_norm": 2.1336939334869385,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7376928329467773,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5267333984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4804.129626522772,
+      "iteration": 315,
+      "transitions": 32956416,
+      "training_tick": 168,
+      "training_reset_seed": 415,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 933888,
+        "kick": 4474880,
+        "post_kick": 5994496
+      },
+      "completed_onpolicy_world_episodes": 36864
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.23326509892940522,
+      "objective": 19.710309743881226,
+      "actor_grad_norm": 2.987515926361084,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7437124252319336,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3470458984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 4935.562037969008,
+      "iteration": 320,
+      "transitions": 33284096,
+      "training_tick": 28,
+      "training_reset_seed": 425,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 983040,
+        "kick": 4483072,
+        "post_kick": 6264832
+      },
+      "completed_onpolicy_world_episodes": 38912
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3289057523012161,
+      "objective": 16.150314807891846,
+      "actor_grad_norm": 4.033810138702393,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.73831844329834,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3470458984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5077.923827379942,
+      "iteration": 325,
+      "transitions": 33611776,
+      "training_tick": 188,
+      "training_reset_seed": 425,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 983040,
+        "kick": 4710400,
+        "post_kick": 6365184
+      },
+      "completed_onpolicy_world_episodes": 38912
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.25155254900455476,
+      "objective": 18.83855438232422,
+      "actor_grad_norm": 4.313540935516357,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743697166442871,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.5247802734375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5229.6605057269335,
+      "iteration": 330,
+      "transitions": 33939456,
+      "training_tick": 48,
+      "training_reset_seed": 434,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1032192,
+        "kick": 4759552,
+        "post_kick": 6594560
+      },
+      "completed_onpolicy_world_episodes": 40960
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.005859375,
+        "captured": 0.078125,
+        "fallen": 0.0,
+        "ordered_contact": 0.615234375,
+        "handoff_at_end": 0.41015625,
+        "max_hold_mean": 0.17765620350837708,
+        "mean_hold": 0.007226560264825821,
+        "final_distance": 0.6524367332458496,
+        "final_speed": 0.0006042197928763926,
+        "return_mean": 28.4838528764667,
+        "legacy_return_mean": 28.59735287784133,
+        "residual_rms_rad": 0.07727434486150742,
+        "residual_saturation_fraction": 0.0669960007071495,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.00544289406388998,
+        "receiver_root_rmse_5": 0.007309686858206987,
+        "ball_rmse_25": 0.06346651911735535,
+        "receiver_root_rmse_25": 0.02754230424761772,
+        "ball_rmse_50": 0.17178155481815338,
+        "receiver_root_rmse_50": 0.08323610574007034
+      },
+      "torch_allocated_gib": 2.7390050888061523,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.1400146484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5342.652623389848,
+      "iteration": 333,
+      "transitions": 34136064,
+      "training_tick": 144,
+      "training_reset_seed": 434,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1032192,
+        "kick": 4945920,
+        "post_kick": 6604800
+      },
+      "completed_onpolicy_world_episodes": 40960
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.29848724901676177,
+      "objective": 11.287458896636963,
+      "actor_grad_norm": 3.484639883041382,
+      "memory_gb": 3.383015936,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.738936424255371,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.1400146484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5396.718387144152,
+      "iteration": 335,
+      "transitions": 34267136,
+      "training_tick": 208,
+      "training_reset_seed": 434,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1032192,
+        "kick": 4945920,
+        "post_kick": 6735872
+      },
+      "completed_onpolicy_world_episodes": 40960
+    },
+    {
+      "stage": "checkpoint",
+      "checkpoint": "checkpoint_005400s_iter_0000336.pt",
+      "scheduled_seconds": 5400,
+      "torch_allocated_gib": 2.738936424255371,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5423.740388432983,
+      "iteration": 336,
+      "transitions": 34332672,
+      "training_tick": 240,
+      "training_reset_seed": 434,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1032192,
+        "kick": 4945920,
+        "post_kick": 6801408
+      },
+      "completed_onpolicy_world_episodes": 40960
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.28509440571069716,
+      "objective": 15.870762348175049,
+      "actor_grad_norm": 3.2268502712249756,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7444372177124023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5530.632994140964,
+      "iteration": 340,
+      "transitions": 34594816,
+      "training_tick": 68,
+      "training_reset_seed": 443,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1081344,
+        "kick": 5036032,
+        "post_kick": 6924288
+      },
+      "completed_onpolicy_world_episodes": 43008
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2551947608590126,
+      "objective": 10.25484585762024,
+      "actor_grad_norm": 4.117498397827148,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.74045467376709,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3177490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5671.398338351864,
+      "iteration": 345,
+      "transitions": 34922496,
+      "training_tick": 228,
+      "training_reset_seed": 443,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1081344,
+        "kick": 5181440,
+        "post_kick": 7106560
+      },
+      "completed_onpolicy_world_episodes": 43008
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3057059943675995,
+      "objective": 15.327385783195496,
+      "actor_grad_norm": 5.377342700958252,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7435903549194336,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3177490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5808.349115864839,
+      "iteration": 350,
+      "transitions": 35250176,
+      "training_tick": 88,
+      "training_reset_seed": 453,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1130496,
+        "kick": 5312512,
+        "post_kick": 7254016
+      },
+      "completed_onpolicy_world_episodes": 45056
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.25427196025848386,
+      "objective": 11.92630934715271,
+      "actor_grad_norm": 3.8131017684936523,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.738348960876465,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3177490234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 5949.695526467171,
+      "iteration": 355,
+      "transitions": 35577856,
+      "training_tick": 248,
+      "training_reset_seed": 453,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1130496,
+        "kick": 5416960,
+        "post_kick": 7477248
+      },
+      "completed_onpolicy_world_episodes": 45056
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2206028953194618,
+      "objective": 13.411180257797241,
+      "actor_grad_norm": 2.6321396827697754,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7424612045288086,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4661865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6089.007819681894,
+      "iteration": 360,
+      "transitions": 35905536,
+      "training_tick": 108,
+      "training_reset_seed": 462,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1179648,
+        "kick": 5588992,
+        "post_kick": 7583744
+      },
+      "completed_onpolicy_world_episodes": 47104
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.26317103803157804,
+      "objective": 13.339393138885498,
+      "actor_grad_norm": 2.512399911880493,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7376012802124023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3255615234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6238.723340443801,
+      "iteration": 365,
+      "transitions": 36233216,
+      "training_tick": 268,
+      "training_reset_seed": 462,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1179648,
+        "kick": 5652480,
+        "post_kick": 7847936
+      },
+      "completed_onpolicy_world_episodes": 47104
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.01953125,
+        "captured": 0.083984375,
+        "fallen": 0.001953125,
+        "ordered_contact": 0.619140625,
+        "handoff_at_end": 0.494140625,
+        "max_hold_mean": 0.2269921451807022,
+        "mean_hold": 0.031210927292704582,
+        "final_distance": 0.638495147228241,
+        "final_speed": 0.0008295043371617794,
+        "return_mean": 34.23307963577099,
+        "legacy_return_mean": 34.40917838818859,
+        "residual_rms_rad": 0.07516663521528244,
+        "residual_saturation_fraction": 0.036508794873952866,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.0021017056424170732,
+        "receiver_root_rmse_5": 0.0035004676319658756,
+        "ball_rmse_25": 0.04775341972708702,
+        "receiver_root_rmse_25": 0.022892415523529053,
+        "ball_rmse_50": 0.172651469707489,
+        "receiver_root_rmse_50": 0.07696494460105896
+      },
+      "torch_allocated_gib": 2.7376012802124023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3255615234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6265.446028071921,
+      "iteration": 365,
+      "transitions": 36233216,
+      "training_tick": 268,
+      "training_reset_seed": 462,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1179648,
+        "kick": 5652480,
+        "post_kick": 7847936
+      },
+      "completed_onpolicy_world_episodes": 47104
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.22833217829465866,
+      "objective": 14.378849267959595,
+      "actor_grad_norm": 3.152405023574829,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.00048828125
+      },
+      "torch_allocated_gib": 2.7437429428100586,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3255615234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6408.003043896984,
+      "iteration": 370,
+      "transitions": 36560896,
+      "training_tick": 128,
+      "training_reset_seed": 472,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1228800,
+        "kick": 5865472,
+        "post_kick": 7913472
+      },
+      "completed_onpolicy_world_episodes": 49152
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2421918272972107,
+      "objective": 16.236732840538025,
+      "actor_grad_norm": 3.682996988296509,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.00048828125
+      },
+      "torch_allocated_gib": 2.73795223236084,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4661865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6551.075889007188,
+      "iteration": 375,
+      "transitions": 36888576,
+      "training_tick": 288,
+      "training_reset_seed": 472,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1228800,
+        "kick": 5888000,
+        "post_kick": 8218624
+      },
+      "completed_onpolicy_world_episodes": 49152
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2415468454360962,
+      "objective": 10.930860757827759,
+      "actor_grad_norm": 4.003536224365234,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7430410385131836,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4661865234375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6697.039204401895,
+      "iteration": 380,
+      "transitions": 37216256,
+      "training_tick": 148,
+      "training_reset_seed": 481,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1277952,
+        "kick": 6123520,
+        "post_kick": 8261632
+      },
+      "completed_onpolicy_world_episodes": 51200
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.22934452891349794,
+      "objective": 13.875173091888428,
+      "actor_grad_norm": 4.267879486083984,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.73581600189209,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.2337646484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6845.828625970054,
+      "iteration": 385,
+      "transitions": 37543936,
+      "training_tick": 8,
+      "training_reset_seed": 490,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1294336,
+        "kick": 6123520,
+        "post_kick": 8572928
+      },
+      "completed_onpolicy_world_episodes": 53248
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2745967447757721,
+      "objective": 10.434874057769775,
+      "actor_grad_norm": 5.106536865234375,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7427892684936523,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.2337646484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 6989.11540508084,
+      "iteration": 390,
+      "transitions": 37871616,
+      "training_tick": 168,
+      "training_reset_seed": 490,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1327104,
+        "kick": 6359040,
+        "post_kick": 8632320
+      },
+      "completed_onpolicy_world_episodes": 53248
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2037752240896225,
+      "objective": 18.97291326522827,
+      "actor_grad_norm": 5.269174098968506,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7375478744506836,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7133.211959905922,
+      "iteration": 395,
+      "transitions": 38199296,
+      "training_tick": 28,
+      "training_reset_seed": 500,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1376256,
+        "kick": 6367232,
+        "post_kick": 8902656
+      },
+      "completed_onpolicy_world_episodes": 55296
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.005859375,
+        "captured": 0.017578125,
+        "fallen": 0.0,
+        "ordered_contact": 0.578125,
+        "handoff_at_end": 0.44921875,
+        "max_hold_mean": 0.14023436605930328,
+        "mean_hold": 0.010351560078561306,
+        "final_distance": 0.6443413496017456,
+        "final_speed": 0.0009005923056975007,
+        "return_mean": 29.49646864150418,
+        "legacy_return_mean": 29.615438962704502,
+        "residual_rms_rad": 0.08643939346075058,
+        "residual_saturation_fraction": 0.07342174649238586,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.004362211097031832,
+        "receiver_root_rmse_5": 0.004332073964178562,
+        "ball_rmse_25": 0.05298815295100212,
+        "receiver_root_rmse_25": 0.03545275703072548,
+        "ball_rmse_50": 0.19690397381782532,
+        "receiver_root_rmse_50": 0.12521962821483612
+      },
+      "torch_allocated_gib": 2.7389822006225586,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7215.17041385686,
+      "iteration": 397,
+      "transitions": 38330368,
+      "training_tick": 92,
+      "training_reset_seed": 500,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1376256,
+        "kick": 6498304,
+        "post_kick": 8902656
+      },
+      "completed_onpolicy_world_episodes": 55296
+    },
+    {
+      "stage": "checkpoint",
+      "checkpoint": "checkpoint_007200s_iter_0000397.pt",
+      "scheduled_seconds": 7200,
+      "torch_allocated_gib": 2.7389822006225586,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7215.26028501289,
+      "iteration": 397,
+      "transitions": 38330368,
+      "training_tick": 92,
+      "training_reset_seed": 500,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1376256,
+        "kick": 6498304,
+        "post_kick": 8902656
+      },
+      "completed_onpolicy_world_episodes": 55296
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2565563455224037,
+      "objective": 12.312703132629395,
+      "actor_grad_norm": 2.2636802196502686,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743475914001465,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3997802734375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7289.82511710003,
+      "iteration": 400,
+      "transitions": 38526976,
+      "training_tick": 188,
+      "training_reset_seed": 500,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1376256,
+        "kick": 6594560,
+        "post_kick": 9003008
+      },
+      "completed_onpolicy_world_episodes": 55296
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.18283388763666153,
+      "objective": 19.67316508293152,
+      "actor_grad_norm": 3.5794951915740967,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7381200790405273,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3997802734375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7429.599353627767,
+      "iteration": 405,
+      "transitions": 38854656,
+      "training_tick": 48,
+      "training_reset_seed": 509,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1425408,
+        "kick": 6643712,
+        "post_kick": 9232384
+      },
+      "completed_onpolicy_world_episodes": 57344
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2583083301782608,
+      "objective": 12.137517213821411,
+      "actor_grad_norm": 2.5564863681793213,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.743056297302246,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.3782958984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7576.7506204769015,
+      "iteration": 410,
+      "transitions": 39182336,
+      "training_tick": 208,
+      "training_reset_seed": 509,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1425408,
+        "kick": 6830080,
+        "post_kick": 9373696
+      },
+      "completed_onpolicy_world_episodes": 57344
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2886856809258461,
+      "objective": 17.065454721450806,
+      "actor_grad_norm": 3.286449670791626,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7384557723999023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4642333984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7729.01781651983,
+      "iteration": 415,
+      "transitions": 39510016,
+      "training_tick": 68,
+      "training_reset_seed": 518,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1474560,
+        "kick": 6920192,
+        "post_kick": 9562112
+      },
+      "completed_onpolicy_world_episodes": 59392
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2255033552646637,
+      "objective": 9.92003309726715,
+      "actor_grad_norm": 4.356385231018066,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.74246883392334,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.2845458984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 7885.574083215091,
+      "iteration": 420,
+      "transitions": 39837696,
+      "training_tick": 228,
+      "training_reset_seed": 518,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1474560,
+        "kick": 7065600,
+        "post_kick": 9744384
+      },
+      "completed_onpolicy_world_episodes": 59392
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.3112494021654129,
+      "objective": 17.152913093566895,
+      "actor_grad_norm": 4.811886310577393,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.736891746520996,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.2845458984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 8040.816337370779,
+      "iteration": 425,
+      "transitions": 40165376,
+      "training_tick": 88,
+      "training_reset_seed": 528,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1523712,
+        "kick": 7196672,
+        "post_kick": 9891840
+      },
+      "completed_onpolicy_world_episodes": 61440
+    },
+    {
+      "stage": "evaluation",
+      "evaluation": {
+        "front_pass_success": 0.005859375,
+        "captured": 0.033203125,
+        "fallen": 0.0,
+        "ordered_contact": 0.564453125,
+        "handoff_at_end": 0.388671875,
+        "max_hold_mean": 0.16531246900558472,
+        "mean_hold": 0.017382808029651642,
+        "final_distance": 0.623717188835144,
+        "final_speed": 0.000656803953461349,
+        "return_mean": 28.719050138257444,
+        "legacy_return_mean": 28.852720371913165,
+        "residual_rms_rad": 0.08934155851602554,
+        "residual_saturation_fraction": 0.09198348969221115,
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0,
+        "ball_rmse_5": 0.002522092778235674,
+        "receiver_root_rmse_5": 0.005839991848915815,
+        "ball_rmse_25": 0.03312123939394951,
+        "receiver_root_rmse_25": 0.02722548507153988,
+        "ball_rmse_50": 0.1289433091878891,
+        "receiver_root_rmse_50": 0.07707717269659042
+      },
+      "torch_allocated_gib": 2.73764705657959,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.2845458984375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 8175.9132188288495,
+      "iteration": 429,
+      "transitions": 40427520,
+      "training_tick": 216,
+      "training_reset_seed": 528,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1523712,
+        "kick": 7301120,
+        "post_kick": 10049536
+      },
+      "completed_onpolicy_world_episodes": 61440
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.26159125119447707,
+      "objective": 17.323932886123657,
+      "actor_grad_norm": 4.983686447143555,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7430639266967773,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 8205.672871747054,
+      "iteration": 430,
+      "transitions": 40493056,
+      "training_tick": 248,
+      "training_reset_seed": 528,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1523712,
+        "kick": 7301120,
+        "post_kick": 10115072
+      },
+      "completed_onpolicy_world_episodes": 61440
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.2123449921607971,
+      "objective": 18.429887771606445,
+      "actor_grad_norm": 7.135601997375488,
+      "memory_gb": 3.38327808,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7386999130249023,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 1.4681396484375,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 8332.272305456921,
+      "iteration": 435,
+      "transitions": 40820736,
+      "training_tick": 108,
+      "training_reset_seed": 537,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1572864,
+        "kick": 7473152,
+        "post_kick": 10221568
+      },
+      "completed_onpolicy_world_episodes": 63488
+    },
+    {
+      "stage": "train",
+      "wm_loss": 0.26075326800346377,
+      "objective": 15.220815777778625,
+      "actor_grad_norm": 3.0207009315490723,
+      "memory_gb": 3.383589376,
+      "training_capacity": {
+        "capacity_overflow_max": 0,
+        "solver_limit_world_fraction": 0.0
+      },
+      "torch_allocated_gib": 2.7430410385131836,
+      "torch_reserved_gib": 3.5390625,
+      "device_free_gib": 0.74224853515625,
+      "device_total_gib": 23.5164794921875,
+      "seconds": 8500.290993922856,
+      "iteration": 440,
+      "transitions": 41148416,
+      "training_tick": 268,
+      "training_reset_seed": 537,
+      "onpolicy_phase_transitions": {
+        "pre_kick": 1572864,
+        "kick": 7536640,
+        "post_kick": 10485760
+      },
+      "completed_onpolicy_world_episodes": 63488
+    }
+  ],
+  "best": {
+    "iteration": 141,
+    "evaluation": {
+      "front_pass_success": 0.048828125,
+      "captured": 0.125,
+      "fallen": 0.0,
+      "ordered_contact": 0.58203125,
+      "handoff_at_end": 0.439453125,
+      "max_hold_mean": 0.2887108623981476,
+      "mean_hold": 0.08183591067790985,
+      "final_distance": 0.6091541051864624,
+      "final_speed": 0.0007104751421138644,
+      "return_mean": 39.507170962926466,
+      "legacy_return_mean": 39.517166390578495,
+      "residual_rms_rad": 0.030823566019535065,
+      "residual_saturation_fraction": 0.0,
+      "capacity_overflow_max": 0,
+      "solver_limit_world_fraction": 0.0,
+      "ball_rmse_5": 0.004779164679348469,
+      "receiver_root_rmse_5": 0.0053756688721477985,
+      "ball_rmse_25": 0.08315198123455048,
+      "receiver_root_rmse_25": 0.04409105330705643,
+      "ball_rmse_50": 0.27294522523880005,
+      "receiver_root_rmse_50": 0.12377068400382996
+    },
+    "selection": "resumed policy before new updates"
+  },
+  "receipt": {
+    "arm": "seed105_closed_loop",
+    "reason": "runtime_gpu_allocation_failure",
+    "failed_allocation_bytes": 427032576,
+    "failure_beijing": "2026-11-11T14:50:38.987820+08:00",
+    "last_logged_iteration": 440,
+    "last_logged_transitions": 41148416,
+    "latest_checkpoint_iteration": 441,
+    "latest_checkpoint_transitions": 41213952,
+    "latest_checkpoint_sha256": "069983566f939eb99b166267bca02f9272a8fb16f4cc6494d62aad96cfd13e5f",
+    "replay_saved": false,
+    "excluded_from_matched_comparison": true,
+    "failed_attempt_seconds": 8539.67688219389,
+    "max_sampled_process_gpu_mib": 7126
+  },
+  "queue": {
+    "status": "failed",
+    "job": "seed105_closed_loop",
+    "job_seconds": 8539.67688219389,
+    "gpu_status": {
+      "free_mib": 761,
+      "used_mib": 23321,
+      "utilization_percent": 99
+    },
+    "process_gpu_mib": 6198,
+    "max_sampled_process_gpu_mib": 7126,
+    "error": "seed105_closed_loop failed (1)"
+  },
+  "completed_runs": [
+    "seed104_held",
+    "seed104_recorded",
+    "seed104_closed_loop",
+    "seed105_recorded"
+  ],
+  "heldout_used": false
+}
