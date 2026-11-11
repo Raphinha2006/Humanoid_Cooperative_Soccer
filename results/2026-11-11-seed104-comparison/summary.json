@@ -1,0 +1,35 @@
+{
+  "held": {
+    "start_rate": 0.056640625,
+    "training_peak_rate": 0.0859375,
+    "training_peak_iteration": 365,
+    "final_rate": 0.046875,
+    "last_four_scheduled_mean": 0.052734375,
+    "hours": 1.877787855606164,
+    "final_return": 16.533608673955314,
+    "final_ball_rmse_25": 0.1101805567741394,
+    "max_sampled_process_gpu_mib": null
+  },
+  "recorded": {
+    "start_rate": 0.056640625,
+    "training_peak_rate": 0.046875,
+    "training_peak_iteration": 301,
+    "final_rate": 0.025390625,
+    "last_four_scheduled_mean": 0.01416015625,
+    "hours": 2.0709528103428116,
+    "final_return": 21.413384911138564,
+    "final_ball_rmse_25": 0.16279111802577972,
+    "max_sampled_process_gpu_mib": 4706
+  },
+  "closed_loop": {
+    "start_rate": 0.05859375,
+    "training_peak_rate": 0.021484375,
+    "training_peak_iteration": 429,
+    "final_rate": 0.00390625,
+    "last_four_scheduled_mean": 0.0029296875,
+    "hours": 3.390988468601653,
+    "final_return": 27.69857589295134,
+    "final_ball_rmse_25": 0.036061376333236694,
+    "max_sampled_process_gpu_mib": 7062
+  }
+}

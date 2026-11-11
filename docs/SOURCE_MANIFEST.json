@@ -411,20 +411,20 @@
       "source_sha256": "60827828394d75b7f9a3d2bc6d38a6c68eeca9cf3e39ecfea96686b4aa815824"
     },
     "simulation/research/cooperative_handoff/findings.md": {
-      "sha256": "74bc63476d1b9f9f8fd2366f3255ebf35c29c279f48615529ec839dd9c977c62",
-      "source_sha256": "74bc63476d1b9f9f8fd2366f3255ebf35c29c279f48615529ec839dd9c977c62"
+      "sha256": "2e9b957d4690adadfcbf7b1b441b59f44dc72a1ddde879f94d22cb64ff96c298",
+      "source_sha256": "2e9b957d4690adadfcbf7b1b441b59f44dc72a1ddde879f94d22cb64ff96c298"
     },
     "simulation/research/cooperative_handoff/literature/survey.md": {
       "sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2",
       "source_sha256": "4cd8fe9481ee93c41e932a05df750d915a5aa4f718d0c2d0074be959395f94d2"
     },
     "simulation/research/cooperative_handoff/research-log.md": {
-      "sha256": "67509490d7d1cb2806a46adbb27931ef5d3b750d43ff25fb72aa41ddd6697340",
-      "source_sha256": "67509490d7d1cb2806a46adbb27931ef5d3b750d43ff25fb72aa41ddd6697340"
+      "sha256": "d876859f307cfbd84d6095b98d7cf888eb67609f654ba4dbe0854f8c43720266",
+      "source_sha256": "d876859f307cfbd84d6095b98d7cf888eb67609f654ba4dbe0854f8c43720266"
     },
     "simulation/research/cooperative_handoff/research-state.yaml": {
-      "sha256": "dc4e62f142e105f43523f202b8588f608f430b53e77f666cec160d0eb036d701",
-      "source_sha256": "2631f39bfa5f706ea39c6b7c8c9c3741fc3e4fb5bbf3085e86f0be43d9fd55e5"
+      "sha256": "8b5872785896a479abd5af6f9df2318577e7b46ad9fb158ade87c613d6e86a0b",
+      "source_sha256": "cec29c8d78aaaf4cdf0468fe79ddff1af78a2b6fbd5c2ee038392256d422cc83"
     },
     "simulation/tools/complete_cooperation_preflight.py": {
       "sha256": "8e4b3ef5615faa45f1839e1d42312c3b88f448a7dc5e8a16e7ca62dd2efe3057",

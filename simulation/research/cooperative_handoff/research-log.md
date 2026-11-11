@@ -67,3 +67,11 @@ completed budgets and frozen hashes, then skips the completed arm. Following the
 user's resource-threshold question, use provisional admission7GiB held/recorded
 and8.5GiB closed_loop, with complete child-process memory samples. Environment,
 batch, microbatch, algorithm and scientific budgets stay fixed. Wait up to12h.
+
+## 2026-11-11 09:21 Asia/Shanghai — first seed comparison complete
+
+All seed104 arms completed 512 added updates/33,554,432 transitions. Final strict
+development rates: held4.69%, recorded2.54%, closed_loop0.39%; no stable gain over
+the common start. Only one continuation seed is complete. The queue has started
+seed105_recorded with no new OOM/capacity failures. Sampled process peaks were
+4706MiB recorded and7062MiB closed_loop; settings/budgets remain unchanged.

@@ -55,3 +55,11 @@ establish sustained improvement: start5.66%, selected peak8.59%, final4.69%;
 last four scheduled development evaluations average5.27%. This is one continuation
 replicate, not an independent final test. Other sender treatments have not yet
 completed, so no treatment ranking or sender-causality claim is supported.
+
+# 2026-11-11 first full seed comparison
+
+Seed104 recorded/closed_loop finish at2.54%/0.39% strict reception, versus held4.69%.
+The closed-loop controller's truth-state conformance does not guarantee useful
+imagined-state policy gradients. Higher simulator return or lower own-trajectory
+position RMSE does not establish higher strict success. Treatment-wide ranking
+and causal attribution require the remaining continuation seeds and interventions.
