@@ -1,0 +1,112 @@
+{
+  "source_sha256": "eace6ee4225718945e049fdfaa73c909316fcbf3c6b9618f487f80e54af74a76",
+  "scope": "Post-hoc descriptive audit, seed104 development logs only",
+  "ci_scope": "Approximate Wilson intervals across perturbed worlds for one fixed actor; not training-seed uncertainty or paired significance tests",
+  "runs": {
+    "held": {
+      "nworlds": 512,
+      "start": {
+        "front_pass_success": 0.056640625,
+        "ordered_contact": 0.595703125,
+        "captured": 0.111328125,
+        "max_hold_mean": 0.27371087670326233,
+        "mean_hold": 0.08445310592651367,
+        "fallen": 0.0,
+        "handoff_at_end": 0.443359375,
+        "final_distance": 0.6064155101776123,
+        "final_speed": 0.0006623811786994338,
+        "strict_success_count": 29,
+        "strict_wilson95": [
+          0.039723226447529306,
+          0.08016139655674563
+        ]
+      },
+      "final": {
+        "front_pass_success": 0.046875,
+        "ordered_contact": 0.453125,
+        "captured": 0.08203125,
+        "max_hold_mean": 0.14152339100837708,
+        "mean_hold": 0.08699215948581696,
+        "fallen": 0.0,
+        "handoff_at_end": 0.15234375,
+        "final_distance": 0.6016197800636292,
+        "final_speed": 0.0007062805234454572,
+        "strict_success_count": 24,
+        "strict_wilson95": [
+          0.031699460685993844,
+          0.06879936106286864
+        ]
+      }
+    },
+    "recorded": {
+      "nworlds": 512,
+      "start": {
+        "front_pass_success": 0.056640625,
+        "ordered_contact": 0.5859375,
+        "captured": 0.125,
+        "max_hold_mean": 0.2901952564716339,
+        "mean_hold": 0.09882809966802597,
+        "fallen": 0.0,
+        "handoff_at_end": 0.45703125,
+        "final_distance": 0.6079750657081604,
+        "final_speed": 0.0007119972724467516,
+        "strict_success_count": 29,
+        "strict_wilson95": [
+          0.039723226447529306,
+          0.08016139655674563
+        ]
+      },
+      "final": {
+        "front_pass_success": 0.025390625,
+        "ordered_contact": 0.6015625,
+        "captured": 0.0625,
+        "max_hold_mean": 0.14074215292930603,
+        "mean_hold": 0.03796873614192009,
+        "fallen": 0.001953125,
+        "handoff_at_end": 0.216796875,
+        "final_distance": 0.6378788352012634,
+        "final_speed": 0.0033582807518541813,
+        "strict_success_count": 13,
+        "strict_wilson95": [
+          0.014897398253755443,
+          0.04295266073319966
+        ]
+      }
+    },
+    "closed_loop": {
+      "nworlds": 512,
+      "start": {
+        "front_pass_success": 0.05859375,
+        "ordered_contact": 0.56640625,
+        "captured": 0.109375,
+        "max_hold_mean": 0.27003902196884155,
+        "mean_hold": 0.09062497317790985,
+        "fallen": 0.0,
+        "handoff_at_end": 0.431640625,
+        "final_distance": 0.6040236949920654,
+        "final_speed": 0.0006799631519243121,
+        "strict_success_count": 30,
+        "strict_wilson95": [
+          0.04134837176993725,
+          0.08241341148542018
+        ]
+      },
+      "final": {
+        "front_pass_success": 0.00390625,
+        "ordered_contact": 0.564453125,
+        "captured": 0.029296875,
+        "max_hold_mean": 0.07624998688697815,
+        "mean_hold": 0.00648437300696969,
+        "fallen": 0.0,
+        "handoff_at_end": 0.1171875,
+        "final_distance": 0.6449569463729858,
+        "final_speed": 0.0015122080221772194,
+        "strict_success_count": 2,
+        "strict_wilson95": [
+          0.0010718890803936704,
+          0.014129407144654047
+        ]
+      }
+    }
+  }
+}
