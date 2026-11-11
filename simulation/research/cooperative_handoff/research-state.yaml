@@ -21,7 +21,7 @@ heldout:
   reserved_n: 1024
   use_during_development: false
 next:
-  - Complete the clean retry of seed105_recorded and remaining five matched arms.
+  - Complete seed105_closed_loop and the remaining four matched arms.
   - Implement contact-aligned evaluation with stopping latency and control persistence.
   - Verify task feasibility and physical reward counterexamples before new reward training.
   - Run short-budget reward comparisons, then WM action-effect interventions.
@@ -44,8 +44,8 @@ publication:
   status: public_verified
 
 normal_update_gates: all_three_passed
-completed_training_arms: [seed104_held, seed104_recorded, seed104_closed_loop]
-current_training_arm: seed105_recorded
+completed_training_arms: [seed104_held, seed104_recorded, seed104_closed_loop, seed105_recorded]
+current_training_arm: seed105_closed_loop
 current_status_file: recovery_retry_20261111.status.json
 memory_admission_mib: {held: 7168, recorded: 7168, closed_loop: 8704}
 

@@ -78,3 +78,12 @@ distinctions, not physically demonstrated exploitation or a causal explanation.
 Next steps are event-aligned measurement, reproducible reception feasibility,
 physical counterexample trajectories, then short-budget reward comparisons before
 world-model/cooperation expansion. The new evaluator/reward is not implemented.
+
+# 2026-11-11 second recorded continuation
+
+seed105_recorded completes its clean-retry budget but ends at0.39% strict versus
+5.27% at start. Mean maximum legacy control persistence falls0.281→0.044s while
+ordered contact remains58.59% and corrected return39.66→38.94. This strengthens
+the need to distinguish reward and task metrics; it does not establish reward
+misspecification as the sole cause, nor establish poorer stopping latency. The
+other treatments lack completed multi-seed comparisons.

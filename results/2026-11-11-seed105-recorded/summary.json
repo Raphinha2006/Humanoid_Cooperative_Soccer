@@ -1,0 +1,79 @@
+{
+  "scope": "development evaluation only, second recorded-sender continuation seed; original reward and protocol",
+  "captured_beijing": "2026-11-11T12:38:36.326445+08:00",
+  "run": "seed105_recorded",
+  "start": {
+    "front_pass_success": 0.052734375,
+    "ordered_contact": 0.5859375,
+    "captured": 0.126953125,
+    "max_hold_mean": 0.2807421088218689,
+    "mean_hold": 0.09343747049570084,
+    "return_mean": 39.66398396877048,
+    "fallen": 0.0,
+    "handoff_at_end": 0.435546875,
+    "ball_rmse_25": 0.07949197292327881
+  },
+  "final": {
+    "front_pass_success": 0.00390625,
+    "ordered_contact": 0.5859375,
+    "captured": 0.017578125,
+    "max_hold_mean": 0.04402342438697815,
+    "mean_hold": 0.007304685190320015,
+    "return_mean": 38.9425677980762,
+    "fallen": 0.0,
+    "handoff_at_end": 0.12109375,
+    "ball_rmse_25": 0.13955137133598328
+  },
+  "new_training_peak": {
+    "iteration": 461,
+    "front_pass_success": 0.015625
+  },
+  "selected_checkpoint": {
+    "iteration": 141,
+    "evaluation": {
+      "front_pass_success": 0.052734375,
+      "captured": 0.126953125,
+      "fallen": 0.0,
+      "ordered_contact": 0.5859375,
+      "handoff_at_end": 0.435546875,
+      "max_hold_mean": 0.2807421088218689,
+      "mean_hold": 0.09343747049570084,
+      "final_distance": 0.6107763051986694,
+      "final_speed": 0.0006844563176855445,
+      "return_mean": 39.66398396877048,
+      "legacy_return_mean": 39.673927805313724,
+      "residual_rms_rad": 0.030807001516222954,
+      "residual_saturation_fraction": 0.0,
+      "capacity_overflow_max": 0,
+      "solver_limit_world_fraction": 0.001953125,
+      "ball_rmse_5": 0.004794548265635967,
+      "receiver_root_rmse_5": 0.005247841589152813,
+      "ball_rmse_25": 0.07949197292327881,
+      "receiver_root_rmse_25": 0.04405390843749046,
+      "ball_rmse_50": 0.26787319779396057,
+      "receiver_root_rmse_50": 0.12400054186582565
+    },
+    "selection": "resumed policy before new updates"
+  },
+  "completed_new_updates": 512,
+  "new_training_transitions": 33554432,
+  "run_hours": 2.2781801507622004,
+  "last_four_scheduled_strict_mean": 0.001953125,
+  "receipt": {
+    "name": "seed105_recorded",
+    "final_iteration": 653,
+    "completed_new_updates": 512,
+    "new_training_transitions": 33554432,
+    "final_checkpoint_sha256": "2779ad897f13585ad8d19a0d30a5ce85f0f7088bcc17060234464457b2e41615",
+    "max_sampled_process_gpu_mib": 5634
+  },
+  "completed_runs": [
+    "seed104_held",
+    "seed104_recorded",
+    "seed104_closed_loop",
+    "seed105_recorded"
+  ],
+  "active_run": "seed105_closed_loop",
+  "evaluation_worlds": 512,
+  "stopping_latency_available": false
+}

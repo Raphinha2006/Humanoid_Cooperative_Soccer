@@ -14,10 +14,10 @@
 | 执行与想象中的控制器一致性 | CPU 8 项通过；GPU 299 步 × 16 环境通过 |
 | 固定条件复测与冻结轨迹预测 | 已完成，见实测结果 |
 | 正常更新显存/数值检查 | 三组全部通过 |
-| 三种发送方控制方式的配对训练 | 完成3/9；当前第4组，seed104三组均未稳定提升 |
+| 三种发送方控制方式的配对训练 | 完成4/9；当前第5组，新增recorded种子仍未改善 |
 | 双方共同学习、跨队友泛化、连续互传 | 后续阶段 |
 
-最新实测见 [三组训练曲线与对照](results/2026-11-11-seed104-comparison/README.md) 和 [进展](docs/STATUS.md)，工作顺序见 [任务](docs/TASKS.md)，决策见 [日志](docs/CHANGELOG.md)。
+最新实测见 [第四组指标与两个种子曲线](results/2026-11-11-seed105-recorded/README.md) 和 [进展](docs/STATUS.md)，工作顺序见 [任务](docs/TASKS.md)，决策见 [日志](docs/CHANGELOG.md)。
 
 ## 研究思路
 
@@ -41,7 +41,7 @@ flowchart LR
 
 早期分别观察有效触球、停球耗时、连续控球保持与姿态；停球耗时越短越好，连续保持越长越好。严格成功率继续作为完整任务验收之一。先受控来球，再扩大能力图，最后连续互传。
 
-[修订计划](docs/RESEARCH_PLAN.md)与[奖励验证](docs/REWARD_VALIDATION.md)已写入；新评估器和奖励尚未实现。当前九组维持原协议，第4组资源中断已归档重跑。[CPU奖励检查](results/2026-11-11-reward-contract/README.md)只是构造状态诊断，不能当作真实策略利用漏洞的证据。
+[修订计划](docs/RESEARCH_PLAN.md)与[奖励验证](docs/REWARD_VALIDATION.md)已写入；新评估器和奖励尚未实现。当前九组维持原协议，第4组资源中断已归档并完成重跑，第5组运行中。[CPU奖励检查](results/2026-11-11-reward-contract/README.md)只是构造状态诊断，不能当作真实策略利用漏洞的证据。
 
 ## 快速开始：G1 GPU 原型
 

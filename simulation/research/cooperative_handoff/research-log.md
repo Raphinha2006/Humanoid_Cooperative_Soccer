@@ -98,3 +98,14 @@ serially queued; original source/config hashes are unchanged. Snapshot 2026-11-1
 CST confirms running seed105_recorded, last logged iteration155.
 CPU-only constructed reward probes completed without using GPU1; they are algebraic
 diagnostics and do not replace physical rollout validation. Independent test unused.
+
+## 2026-11-11 12:38 Asia/Shanghai — fourth matched arm complete
+
+seed105_recorded clean retry completed512 updates/33,554,432 new transitions in
+2.28h. Strict reception5.27%→0.39%, ordered contact58.59%→58.59%, ever-captured
+12.70%→1.76%, mean maximum continuous control0.281→0.044s, return39.66→38.94.
+The persistence metric is not stopping latency and does not identify the cause.
+Two recorded continuations now show late degradation; no overall method ranking
+is established. Original-reward seed105_closed_loop is running as arm5/9, without
+a post-training evaluation yet at this snapshot. V2 evaluator/reward not active.
+Published raw results and raw two-seed curves, with no heldout use or source changes.
